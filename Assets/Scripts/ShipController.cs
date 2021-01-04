@@ -51,7 +51,8 @@ public class ShipController : MonoBehaviour
 
     private void Shoot()
     {
-        //Instantiate(projectile);
-        //projectile.transform.position += Vector3.up;
+        GameObject missile = Instantiate(projectile);
+        missile.transform.position = transform.position + Vector3.up;
+        missile.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 25);
     }
 }
