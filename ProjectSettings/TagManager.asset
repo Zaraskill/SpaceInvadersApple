@@ -7,6 +7,7 @@ TagManager:
   - Wall
   - Projectile
   - Enemy
+  - Sides
   layers:
   - Default
   - TransparentFX
@@ -16,8 +17,8 @@ TagManager:
   - UI
   - 
   - 
-  - 
-  - 
+  - Enemy
+  - Projectile
   - 
   - 
   - 

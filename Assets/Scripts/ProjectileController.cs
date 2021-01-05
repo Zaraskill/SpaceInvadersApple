@@ -24,5 +24,15 @@ public class ProjectileController : MonoBehaviour
         {
             Destroy(gameObject);
         }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            Destroy(gameObject);
+            if (collision.gameObject.GetComponent<Invader>())
+            {
+                collision.gameObject.GetComponent<Invader>().Explode();
+            }
+        }
     }
+
 }

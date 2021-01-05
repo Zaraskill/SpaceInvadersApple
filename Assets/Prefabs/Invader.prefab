@@ -11,7 +11,7 @@ GameObject:
   - component: {fileID: 8051605978036804946}
   - component: {fileID: 8700246488627274627}
   - component: {fileID: 2071339948411303606}
-  m_Layer: 0
+  m_Layer: 8
   m_Name: Invader
   m_TagString: Enemy
   m_Icon: {fileID: 0}
@@ -94,3 +94,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 7bf0d10ca9815fb47935fbe3adf28db6, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  projectile: {fileID: 3266789268779561891, guid: 0450969727e7dcd4ab7641039808324c,
+    type: 3}
+  mask:
+    serializedVersion: 2
+    m_Bits: 256
