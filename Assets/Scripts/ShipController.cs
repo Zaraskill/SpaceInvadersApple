@@ -7,6 +7,7 @@ public class ShipController : MonoBehaviour
     private int direction;
     private Rigidbody2D _rigidbody;
 
+    public int life = 3;
     public float speed;
     public GameObject projectile;
 
@@ -25,11 +26,11 @@ public class ShipController : MonoBehaviour
 
     private void UpdateInput()
     {
-        if (Input.GetKey(KeyCode.LeftArrow))
+        if (Input.GetKey(KeyCode.LeftArrow) && !Input.GetKey(KeyCode.RightArrow))
         {
             direction = -1;
         }
-        else if (Input.GetKey(KeyCode.RightArrow))
+        else if (Input.GetKey(KeyCode.RightArrow) && !Input.GetKey(KeyCode.LeftArrow))
         {
             direction = 1;
         }
@@ -53,6 +54,18 @@ public class ShipController : MonoBehaviour
     {
         GameObject missile = Instantiate(projectile);
         missile.transform.position = transform.position + Vector3.up;
-        missile.GetComponent<Rigidbody2D>().AddForce(Vector2.up * 25);
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        if (collision.gameObject.CompareTag("Projectile"))
+        {
+            life--;
+            Destroy(collision.gameObject);
+            if(life <= 0)
+            {
+                //Gameover
+            }
+        }
     }
 }
