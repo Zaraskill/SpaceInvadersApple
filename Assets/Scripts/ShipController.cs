@@ -62,6 +62,7 @@ public class ShipController : MonoBehaviour
         {
             life--;
             Destroy(collision.gameObject);
+            UIManager.instance.UpdateLifes(life);
             if(life <= 0)
             {
                 //Gameover
