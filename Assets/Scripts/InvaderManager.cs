@@ -4,11 +4,27 @@ using UnityEngine;
 
 public class InvaderManager : MonoBehaviour
 {
+    public static InvaderManager _instance;
+
+    void Awake()
+    {
+
+        if (_instance == null)
+        {
+            _instance = this;
+        }
+        else
+        {
+            Destroy(this);
+        }
+    }
     [SerializeField] private float shootFrequency = 2f;
 
-    [SerializeField] private float horizontalMoveSpeed = 0.1f;
-    [SerializeField] private float verticalMoveSpeed = 0.2f;
-    [SerializeField] private float moveInterval = 1f;
+    public float horizontalMoveSpeed = 0.1f;
+    public float verticalMoveSpeed = 0.2f;
+    [HideInInspector] public float moveInterval = 1.5f;
+    public float maxMoveInterval = 1.5f;
+    public float minMoveInterval = 0.1f;
 
     private Vector3 verticalOrientation = Vector3.left;
 
@@ -18,7 +34,7 @@ public class InvaderManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        
+        moveInterval = maxMoveInterval;
     }
 
     // Update is called once per frame
@@ -32,7 +48,7 @@ public class InvaderManager : MonoBehaviour
             {
                 if (Invader.list[i].hitSide)
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, Vector3.down, verticalMoveSpeed);
+                    transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.down, verticalMoveSpeed);
                     for (int j = Invader.list.Count - 1; j >= 0; j--)
                     {
                         Invader.list[j].hitSide = false;

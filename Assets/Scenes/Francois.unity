@@ -441,7 +441,17 @@ PrefabInstance:
     - target: {fileID: 221197972407822685, guid: dbe8b4e8ad396084f92f843ff8cb263f,
         type: 3}
       propertyPath: moveInterval
-      value: 1
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 221197972407822685, guid: dbe8b4e8ad396084f92f843ff8cb263f,
+        type: 3}
+      propertyPath: shootFrequency
+      value: 3
+      objectReference: {fileID: 0}
+    - target: {fileID: 221197972407822685, guid: dbe8b4e8ad396084f92f843ff8cb263f,
+        type: 3}
+      propertyPath: minMoveInterval
+      value: 0.01
       objectReference: {fileID: 0}
     - target: {fileID: 221197972407822685, guid: dbe8b4e8ad396084f92f843ff8cb263f,
         type: 3}

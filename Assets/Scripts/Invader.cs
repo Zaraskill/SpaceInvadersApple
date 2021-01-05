@@ -9,6 +9,8 @@ public class Invader : MonoBehaviour
     [SerializeField] private GameObject projectile;
     [SerializeField] private LayerMask mask;
 
+    private float invadersCount = 55;
+
     public bool hitSide = false;
 
     // Start is called before the first frame update
@@ -50,6 +52,12 @@ public class Invader : MonoBehaviour
     public void Explode()
     {
         list.Remove(this);
+        float ratio = (invadersCount - (float)list.Count) / invadersCount;
+        InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
+        if (list.Count == 1) InvaderManager._instance.horizontalMoveSpeed = 0.8f;
+        else if (list.Count <= 5) InvaderManager._instance.horizontalMoveSpeed = 0.6f;
+        else if (list.Count <= 10) InvaderManager._instance.horizontalMoveSpeed = 0.3f;
+        else if (list.Count <= 20) InvaderManager._instance.horizontalMoveSpeed = 0.2f;
         Destroy(gameObject);
     }
 
