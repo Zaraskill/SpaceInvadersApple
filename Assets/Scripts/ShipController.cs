@@ -7,6 +7,9 @@ public class ShipController : MonoBehaviour
 {
     private int direction;
     private Rigidbody2D _rigidbody;
+    private bool canShoot;
+    private GameObject shoot;
+
 
     public int life = 3;
     public float speed;
@@ -25,6 +28,10 @@ public class ShipController : MonoBehaviour
     {
         UpdateInput();
         UpdateMovement();
+        if(shoot == null)
+        {
+            canShoot = true;
+        }
     }
 
     private void UpdateInput()
@@ -41,8 +48,9 @@ public class ShipController : MonoBehaviour
         {
             direction = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && canShoot)
         {
+            canShoot = false;
             Shoot();
         }
     }
@@ -56,6 +64,7 @@ public class ShipController : MonoBehaviour
     private void Shoot()
     {
         GameObject missile = Instantiate(projectile);
+        shoot = missile;
         missile.transform.position = transform.position + Vector3.up;
         OnShoot?.Invoke();
     }

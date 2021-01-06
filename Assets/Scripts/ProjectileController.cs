@@ -22,6 +22,7 @@ public class ProjectileController : MonoBehaviour
     {
         if (collision.gameObject.CompareTag("Wall"))
         {
+            AudioManager.instance.PlayEnemyTrash();
             Destroy(gameObject);
         }
 
