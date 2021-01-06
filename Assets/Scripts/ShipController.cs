@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
@@ -10,6 +11,8 @@ public class ShipController : MonoBehaviour
     public int life = 3;
     public float speed;
     public GameObject projectile;
+
+    public static Action OnShoot;
 
     // Start is called before the first frame update
     void Start()
@@ -54,6 +57,7 @@ public class ShipController : MonoBehaviour
     {
         GameObject missile = Instantiate(projectile);
         missile.transform.position = transform.position + Vector3.up;
+        OnShoot?.Invoke();
     }
 
     private void OnCollisionEnter2D(Collision2D collision)

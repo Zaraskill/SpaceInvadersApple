@@ -31,10 +31,25 @@ public class InvaderManager : MonoBehaviour
     private float elapsedTime = 0;
     private float elapsedTimeShoot = 0;
 
+    public float dodgeProbability = 0.2f;
+
     // Start is called before the first frame update
     void Start()
     {
+        ShipController.OnShoot += OnShootDetected;
+
         moveInterval = maxMoveInterval;
+    }
+
+    private void OnShootDetected()
+    {
+        float randomNum = Random.value;
+
+        if(randomNum <= dodgeProbability)
+        {
+            if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
+            else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;
+        }
     }
 
     // Update is called once per frame
@@ -44,21 +59,24 @@ public class InvaderManager : MonoBehaviour
 
         if(elapsedTime >= moveInterval)
         {
-            for(int i = Invader.list.Count-1; i >= 0; i--)
+            while (Invader.list.Count > 0)
             {
-                if (Invader.list[i].hitSide)
+                for (int i = Invader.list.Count - 1; i >= 0; i--)
                 {
-                    transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.down, verticalMoveSpeed);
-                    for (int j = Invader.list.Count - 1; j >= 0; j--)
+                    if (Invader.list[i].hitSide)
                     {
-                        Invader.list[j].hitSide = false;
+                        transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.down, verticalMoveSpeed);
+                        for (int j = Invader.list.Count - 1; j >= 0; j--)
+                        {
+                            Invader.list[j].hitSide = false;
+                        }
+                        if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
+                        else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;
                     }
-                    if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
-                    else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;
                 }
+                transform.position = Vector3.MoveTowards(transform.position, transform.position + verticalOrientation, horizontalMoveSpeed);
+                elapsedTime = 0;
             }
-            transform.position = Vector3.MoveTowards(transform.position, transform.position + verticalOrientation, horizontalMoveSpeed);
-            elapsedTime = 0;
         }
 
         elapsedTimeShoot += Time.deltaTime;
