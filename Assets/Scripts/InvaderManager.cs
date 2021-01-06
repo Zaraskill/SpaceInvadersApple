@@ -55,28 +55,30 @@ public class InvaderManager : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        if(Invader.list.Count <= 0)
+        {
+            return;
+        }
+
         elapsedTime += Time.deltaTime;
 
-        if(elapsedTime >= moveInterval)
+        if(elapsedTime >= moveInterval )
         {
-            while (Invader.list.Count > 0)
+            for (int i = Invader.list.Count - 1; i >= 0; i--)
             {
-                for (int i = Invader.list.Count - 1; i >= 0; i--)
+                if (Invader.list[i].hitSide)
                 {
-                    if (Invader.list[i].hitSide)
+                    transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.down, verticalMoveSpeed);
+                    for (int j = Invader.list.Count - 1; j >= 0; j--)
                     {
-                        transform.position = Vector3.MoveTowards(transform.position, transform.position + Vector3.down, verticalMoveSpeed);
-                        for (int j = Invader.list.Count - 1; j >= 0; j--)
-                        {
-                            Invader.list[j].hitSide = false;
-                        }
-                        if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
-                        else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;
+                        Invader.list[j].hitSide = false;
                     }
+                    if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
+                    else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;
                 }
-                transform.position = Vector3.MoveTowards(transform.position, transform.position + verticalOrientation, horizontalMoveSpeed);
-                elapsedTime = 0;
             }
+            transform.position = Vector3.MoveTowards(transform.position, transform.position + verticalOrientation, horizontalMoveSpeed);
+            elapsedTime = 0;
         }
 
         elapsedTimeShoot += Time.deltaTime;

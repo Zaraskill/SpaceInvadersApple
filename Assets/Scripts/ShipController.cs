@@ -48,7 +48,7 @@ public class ShipController : MonoBehaviour
         {
             direction = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Space) && canShoot)
+        if (Input.GetKeyDown(KeyCode.Space))
         {
             canShoot = false;
             Shoot();
