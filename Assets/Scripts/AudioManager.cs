@@ -15,12 +15,12 @@ public class AudioManager : MonoBehaviour
     public AudioClip playerSpawn;
     public AudioClip playerDeath;
     public AudioClip playerTrashTalk;
-    public AudioClip enemyTrashtalk;
     public AudioClip enemyMovement;
     public AudioClip enemyShot;
     public AudioClip enemyDeath;
     public AudioClip pointWin;
     public AudioClip enemyChange;
+    public List<AudioClip> enemyTrashtalk;
 
     private void Awake()
     {
@@ -28,7 +28,7 @@ public class AudioManager : MonoBehaviour
         {
             Destroy(this);
         }
-
+        instance = this;
         musicSource = gameObject.AddComponent<AudioSource>();
         musicSource.clip = music;
     }
@@ -36,7 +36,7 @@ public class AudioManager : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
-        PlayMusic();
+        //PlayMusic();
     }
 
     private void Play(AudioClip originalClip)
@@ -76,7 +76,10 @@ public class AudioManager : MonoBehaviour
 
     public void PlayEnemyTrash()
     {
-        Play(enemyTrashtalk);
+        int random = Random.Range(0, enemyTrashtalk.Count);
+        Debug.Log(random);
+        Debug.Log(enemyTrashtalk[random].name);
+        Play(enemyTrashtalk[random]);
     }
 
     public void PlayEnemyMovement()
