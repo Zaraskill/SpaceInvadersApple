@@ -22,6 +22,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip enemyChange;
     public List<AudioClip> enemyTrashtalk;
 
+    private float pitchMin = 1f;
+    private float pitchMax = 1f;
+    private float timeLerp = 0f;
+
     private void Awake()
     {
         if (instance != null)
@@ -31,12 +35,24 @@ public class AudioManager : MonoBehaviour
         instance = this;
         musicSource = gameObject.AddComponent<AudioSource>();
         musicSource.clip = music;
+        musicSource.loop = true;
     }
 
     // Start is called before the first frame update
     void Start()
     {
-        //PlayMusic();
+        PlayMusic();
+    }
+
+    void Update()
+    {
+        if(pitchMax > 1f)
+        {
+            timeLerp += Time.deltaTime *0.5f;
+            musicSource.pitch = Mathf.Lerp(pitchMin, pitchMax, timeLerp);
+            Debug.Log(musicSource.pitch);
+        }
+        
     }
 
     private void Play(AudioClip originalClip)
@@ -77,8 +93,6 @@ public class AudioManager : MonoBehaviour
     public void PlayEnemyTrash()
     {
         int random = Random.Range(0, enemyTrashtalk.Count);
-        Debug.Log(random);
-        Debug.Log(enemyTrashtalk[random].name);
         Play(enemyTrashtalk[random]);
     }
 
@@ -105,5 +119,12 @@ public class AudioManager : MonoBehaviour
     public void PlayEnemyChange()
     {
         Play(enemyChange);
+    }
+
+    public void IncreasePitch(float pitchToGo)
+    {
+        pitchMin = pitchMax;
+        pitchMax = pitchToGo;
+        timeLerp = 0f;
     }
 }
