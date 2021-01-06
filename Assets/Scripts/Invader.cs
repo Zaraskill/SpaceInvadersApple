@@ -54,10 +54,26 @@ public class Invader : MonoBehaviour
         list.Remove(this);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
         InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
-        if (list.Count == 1) InvaderManager._instance.horizontalMoveSpeed = 0.8f;
-        else if (list.Count <= 5) InvaderManager._instance.horizontalMoveSpeed = 0.6f;
-        else if (list.Count <= 10) InvaderManager._instance.horizontalMoveSpeed = 0.3f;
-        else if (list.Count <= 20) InvaderManager._instance.horizontalMoveSpeed = 0.2f;
+        if (list.Count == 1)
+        {
+            InvaderManager._instance.horizontalMoveSpeed = 0.8f;
+            AudioManager.instance.IncreasePitch(2f);
+        }
+        else if (list.Count <= 5)
+        {
+            InvaderManager._instance.horizontalMoveSpeed = 0.6f;
+            AudioManager.instance.IncreasePitch(1.75f);
+        }
+        else if (list.Count <= 10)
+        {
+            InvaderManager._instance.horizontalMoveSpeed = 0.3f;
+            AudioManager.instance.IncreasePitch(1.5f);
+        }
+        else if (list.Count <= 20)
+        {
+            InvaderManager._instance.horizontalMoveSpeed = 0.2f;
+            AudioManager.instance.IncreasePitch(1.25f);
+        }
         Destroy(gameObject);
     }
 
