@@ -1,0 +1,800 @@
+fileFormatVersion: 2
+guid: 4a92538d05394cc458437badd5c40888
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 5946168958727289002
+    second: Spawn_Ship_0
+  - first:
+      213: -400150682156225323
+    second: Spawn_Ship_1
+  - first:
+      213: -370609711966163027
+    second: Spawn_Ship_2
+  - first:
+      213: -3881956227623083118
+    second: Spawn_Ship_3
+  - first:
+      213: 473045695871611477
+    second: Spawn_Ship_4
+  - first:
+      213: 9029543907616784573
+    second: Spawn_Ship_5
+  - first:
+      213: -2973388048176058901
+    second: Spawn_Ship_6
+  - first:
+      213: -7883445913966923974
+    second: Spawn_Ship_7
+  - first:
+      213: 4271226001873639558
+    second: Spawn_Ship_8
+  - first:
+      213: 6737346110739857410
+    second: Spawn_Ship_9
+  - first:
+      213: 2496084526106628674
+    second: Spawn_Ship_10
+  - first:
+      213: -8787311366820590938
+    second: Spawn_Ship_11
+  - first:
+      213: -7776015692176311077
+    second: Spawn_Ship_12
+  - first:
+      213: -7684885831221714086
+    second: Spawn_Ship_13
+  - first:
+      213: -1421505253387253912
+    second: Spawn_Ship_14
+  - first:
+      213: 7057766046845477344
+    second: Spawn_Ship_15
+  - first:
+      213: 3658550976668978770
+    second: Spawn_Ship_16
+  - first:
+      213: 5090890199690973681
+    second: Spawn_Ship_17
+  - first:
+      213: -2454382726773208948
+    second: Spawn_Ship_18
+  - first:
+      213: -3073343377644749202
+    second: Spawn_Ship_19
+  - first:
+      213: 3223125660560274508
+    second: Spawn_Ship_20
+  - first:
+      213: -6714707174833064875
+    second: Spawn_Ship_21
+  - first:
+      213: -1185433314729720447
+    second: Spawn_Ship_22
+  - first:
+      213: 9036972760803120975
+    second: Spawn_Ship_23
+  - first:
+      213: 5014466462754777054
+    second: Spawn_Ship_24
+  - first:
+      213: 902552841994743008
+    second: Spawn_Ship_25
+  - first:
+      213: 2877873110830789516
+    second: Spawn_Ship_26
+  - first:
+      213: 5313235665172004274
+    second: Spawn_Ship_27
+  - first:
+      213: -4389578454307858146
+    second: Spawn_Ship_28
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Spawn_Ship_0
+      rect:
+        serializedVersion: 2
+        x: 647
+        y: 2801
+        width: 243
+        height: 36
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aa8f46fe929058250800000000000000
+      internalID: 5946168958727289002
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_1
+      rect:
+        serializedVersion: 2
+        x: 1168
+        y: 2783
+        width: 226
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dca27d1311627af0800000000000000
+      internalID: -400150682156225323
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_2
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 2767
+        width: 207
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: daf62f73e645bdaf0800000000000000
+      internalID: -370609711966163027
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_3
+      rect:
+        serializedVersion: 2
+        x: 2210
+        y: 2750
+        width: 189
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29329e2e065802ac0800000000000000
+      internalID: -3881956227623083118
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_4
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 2732
+        width: 171
+        height: 170
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 55274f8dd88909600800000000000000
+      internalID: 473045695871611477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_5
+      rect:
+        serializedVersion: 2
+        x: 181
+        y: 2203
+        width: 151
+        height: 202
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: db08a49e7526f4d70800000000000000
+      internalID: 9029543907616784573
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_6
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 2185
+        width: 135
+        height: 237
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bede219e2576cb6d0800000000000000
+      internalID: -2973388048176058901
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_7
+      rect:
+        serializedVersion: 2
+        x: 1222
+        y: 2168
+        width: 117
+        height: 270
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a3f2ff3a5bf589290800000000000000
+      internalID: -7883445913966923974
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_8
+      rect:
+        serializedVersion: 2
+        x: 1732
+        y: 2173
+        width: 121
+        height: 259
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68817153b61764b30800000000000000
+      internalID: 4271226001873639558
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_9
+      rect:
+        serializedVersion: 2
+        x: 2237
+        y: 2186
+        width: 135
+        height: 234
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 200428b779cdf7d50800000000000000
+      internalID: 6737346110739857410
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_10
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2183
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2425fe3d6afd3a220800000000000000
+      internalID: 2496084526106628674
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_11
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6aa08e97ed23d0680800000000000000
+      internalID: -8787311366820590938
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_12
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bdcb7f35dea061490800000000000000
+      internalID: -7776015692176311077
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_13
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a53e8928d0dc95590800000000000000
+      internalID: -7684885831221714086
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_14
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8674085e08cc54ce0800000000000000
+      internalID: -1421505253387253912
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_15
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0e1a90273d832f160800000000000000
+      internalID: 7057766046845477344
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_16
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25e430dbab8c5c230800000000000000
+      internalID: 3658550976668978770
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_17
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f11917f9a976a640800000000000000
+      internalID: 5090890199690973681
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_18
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c8804d3f9e740fdd0800000000000000
+      internalID: -2454382726773208948
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_19
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6e7fa63b7a4955d0800000000000000
+      internalID: -3073343377644749202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_20
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c44342026b7dabc20800000000000000
+      internalID: 3223125660560274508
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_21
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 554fe49866190d2a0800000000000000
+      internalID: -6714707174833064875
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_22
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1850f925eae7c8fe0800000000000000
+      internalID: -1185433314729720447
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_23
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f471d8498d6c96d70800000000000000
+      internalID: 9036972760803120975
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_24
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed7ab9a1ea6f69540800000000000000
+      internalID: 5014466462754777054
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_25
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ecad122703868c00800000000000000
+      internalID: 902552841994743008
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_26
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c83b7bfb85240f720800000000000000
+      internalID: 2877873110830789516
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_27
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2bd738ecfa76cb940800000000000000
+      internalID: 5313235665172004274
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Spawn_Ship_28
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e19954d17a51513c0800000000000000
+      internalID: -4389578454307858146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

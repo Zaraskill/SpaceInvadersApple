@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: a4260423729a6dc449836968b980d92e
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 180061868752626326
+    second: Dodge_Invader2_0
+  - first:
+      213: 6225078978489515565
+    second: Dodge_Invader2_1
+  - first:
+      213: -1292297891901324572
+    second: Dodge_Invader2_2
+  - first:
+      213: -4377027177149275204
+    second: Dodge_Invader2_3
+  - first:
+      213: 2434230367651975640
+    second: Dodge_Invader2_4
+  - first:
+      213: -8931846027665764085
+    second: Dodge_Invader2_5
+  - first:
+      213: -5348759020880999378
+    second: Dodge_Invader2_6
+  - first:
+      213: 2212048578390388874
+    second: Dodge_Invader2_7
+  - first:
+      213: -4857341267037285135
+    second: Dodge_Invader2_8
+  - first:
+      213: -2825666330499933016
+    second: Dodge_Invader2_9
+  - first:
+      213: -9218142530587870246
+    second: Dodge_Invader2_10
+  - first:
+      213: 6155702402556092057
+    second: Dodge_Invader2_11
+  - first:
+      213: 1357574650005933699
+    second: Dodge_Invader2_12
+  - first:
+      213: -9038328763672379776
+    second: Dodge_Invader2_13
+  - first:
+      213: -6097395853307795169
+    second: Dodge_Invader2_14
+  - first:
+      213: -3691217046005742994
+    second: Dodge_Invader2_15
+  - first:
+      213: -6390436966217801994
+    second: Dodge_Invader2_16
+  - first:
+      213: -8062764749200776841
+    second: Dodge_Invader2_17
+  - first:
+      213: 4990405379657092992
+    second: Dodge_Invader2_18
+  - first:
+      213: 2877836417361863058
+    second: Dodge_Invader2_19
+  - first:
+      213: -2619680655449543211
+    second: Dodge_Invader2_20
+  - first:
+      213: -8193318400332408322
+    second: Dodge_Invader2_21
+  - first:
+      213: 2275122139450679910
+    second: Dodge_Invader2_22
+  - first:
+      213: -8204149385599072555
+    second: Dodge_Invader2_23
+  - first:
+      213: -8176608319789210165
+    second: Dodge_Invader2_24
+  - first:
+      213: -2590747531858912026
+    second: Dodge_Invader2_25
+  - first:
+      213: -2516130901388640356
+    second: Dodge_Invader2_26
+  - first:
+      213: -2288302939779261319
+    second: Dodge_Invader2_27
+  - first:
+      213: 8686195816691228155
+    second: Dodge_Invader2_28
+  - first:
+      213: 1146647371758078868
+    second: Dodge_Invader2_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dodge_Invader2_0
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2738
+        width: 247
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 692e79cc055bf7200800000000000000
+      internalID: 180061868752626326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_1
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2738
+        width: 248
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d2e7e9b595ce36650800000000000000
+      internalID: 6225078978489515565
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_2
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 2738
+        width: 248
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e24c390ae5d01ee0800000000000000
+      internalID: -1292297891901324572
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_3
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2738
+        width: 247
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cb369cd09fca143c0800000000000000
+      internalID: -4377027177149275204
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_4
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 2738
+        width: 248
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d15d5d4f9f18c120800000000000000
+      internalID: 2434230367651975640
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_5
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 2738
+        width: 248
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b019f7c5c55bb0480800000000000000
+      internalID: -8931846027665764085
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_6
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 2227
+        width: 247
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e2cc83b620465c5b0800000000000000
+      internalID: -5348759020880999378
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_7
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 2227
+        width: 248
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a80fddc4676c2be10800000000000000
+      internalID: 2212048578390388874
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_8
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 2225
+        width: 248
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1f495695ad1479cb0800000000000000
+      internalID: -4857341267037285135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_9
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 2225
+        width: 247
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8ac15c4817739c8d0800000000000000
+      internalID: -2825666330499933016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_10
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 2225
+        width: 248
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: adbb36f4534921080800000000000000
+      internalID: -9218142530587870246
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_11
+      rect:
+        serializedVersion: 2
+        x: 2693
+        y: 2225
+        width: 248
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 99edf5788b27d6550800000000000000
+      internalID: 6155702402556092057
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_12
+      rect:
+        serializedVersion: 2
+        x: 133
+        y: 1714
+        width: 247
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38ecda193f217d210800000000000000
+      internalID: 1357574650005933699
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_13
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1714
+        width: 248
+        height: 154
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08ebc1660e7619280800000000000000
+      internalID: -9038328763672379776
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_14
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 1712
+        width: 248
+        height: 158
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1926acd6c2b16ba0800000000000000
+      internalID: -6097395853307795169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_15
+      rect:
+        serializedVersion: 2
+        x: 1669
+        y: 1711
+        width: 247
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e6206ff47a926ccc0800000000000000
+      internalID: -3691217046005742994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_16
+      rect:
+        serializedVersion: 2
+        x: 2182
+        y: 1709
+        width: 246
+        height: 165
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6fe101def6b9057a0800000000000000
+      internalID: -6390436966217801994
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_17
+      rect:
+        serializedVersion: 2
+        x: 2695
+        y: 1708
+        width: 247
+        height: 166
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 771a850dd2e4b1090800000000000000
+      internalID: -8062764749200776841
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_18
+      rect:
+        serializedVersion: 2
+        x: 134
+        y: 1198
+        width: 246
+        height: 163
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 08fc8a3a04b714540800000000000000
+      internalID: 4990405379657092992
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_19
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 1201
+        width: 248
+        height: 157
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 291698269f020f720800000000000000
+      internalID: 2877836417361863058
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_20
+      rect:
+        serializedVersion: 2
+        x: 1159
+        y: 1198
+        width: 246
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5dda7f2d25605abd0800000000000000
+      internalID: -2619680655449543211
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_21
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1195
+        width: 246
+        height: 171
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef9d380335c7b4e80800000000000000
+      internalID: -8193318400332408322
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_22
+      rect:
+        serializedVersion: 2
+        x: 2180
+        y: 1183
+        width: 234
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 662a59e188bd29f10800000000000000
+      internalID: 2275122139450679910
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_23
+      rect:
+        serializedVersion: 2
+        x: 2696
+        y: 1173
+        width: 219
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5d6c02be991052e80800000000000000
+      internalID: -8204149385599072555
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_24
+      rect:
+        serializedVersion: 2
+        x: 137
+        y: 659
+        width: 216
+        height: 206
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bc5e57ffd0ad68e80800000000000000
+      internalID: -8176608319789210165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_25
+      rect:
+        serializedVersion: 2
+        x: 644
+        y: 670
+        width: 231
+        height: 187
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6ec54dc98d0db0cd0800000000000000
+      internalID: -2590747531858912026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_26
+      rect:
+        serializedVersion: 2
+        x: 1157
+        y: 688
+        width: 248
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c9fb856b648e41dd0800000000000000
+      internalID: -2516130901388640356
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_27
+      rect:
+        serializedVersion: 2
+        x: 1694
+        y: 662
+        width: 218
+        height: 200
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 97c99f7a9905e30e0800000000000000
+      internalID: -2288302939779261319
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_28
+      rect:
+        serializedVersion: 2
+        x: 2230
+        y: 650
+        width: 163
+        height: 248
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bfd5d57e2119b8870800000000000000
+      internalID: 8686195816691228155
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dodge_Invader2_29
+      rect:
+        serializedVersion: 2
+        x: 2704
+        y: 692
+        width: 240
+        height: 176
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49b864c95b5b9ef00800000000000000
+      internalID: 1146647371758078868
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
