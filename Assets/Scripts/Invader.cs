@@ -13,6 +13,8 @@ public class Invader : MonoBehaviour
 
     public bool hitSide = false;
 
+    public int scorePoints = 100;
+
     // Start is called before the first frame update
     void Start()
     {
@@ -54,6 +56,9 @@ public class Invader : MonoBehaviour
         list.Remove(this);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
         InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
+        UIManager.instance.ScoreValue += scorePoints;
+        UIManager.instance.UpdateScore();
+
         if (list.Count == 1)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.8f;

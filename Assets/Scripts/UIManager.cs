@@ -1,5 +1,6 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
+using TMPro;
 using UnityEngine;
 using UnityEngine.UI;
 
@@ -11,6 +12,9 @@ public class UIManager : MonoBehaviour
     public Image lifeOne;
     public Image lifeTwo;
     public Image lifeThree;
+
+    public TMP_Text ScoreText;
+    public int ScoreValue;
 
     private void Awake()
     {
@@ -52,5 +56,10 @@ public class UIManager : MonoBehaviour
         {
             lifeOne.gameObject.SetActive(false);
         }
+    }
+
+    public void UpdateScore()
+    {
+        ScoreText.text = "Score : " + ScoreValue; 
     }
 }
