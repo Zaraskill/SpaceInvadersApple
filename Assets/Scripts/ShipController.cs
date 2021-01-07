@@ -48,8 +48,9 @@ public class ShipController : MonoBehaviour
         {
             direction = 0;
         }
-        if (Input.GetKeyDown(KeyCode.Space))
+        if (Input.GetKeyDown(KeyCode.Space) && canShoot)
         {
+            AudioManager.instance.PlayPlayerShot();
             canShoot = false;
             Shoot();
         }
@@ -79,6 +80,11 @@ public class ShipController : MonoBehaviour
             if(life <= 0)
             {
                 //Gameover
+            }
+            else
+            {
+                AudioManager.instance.PlayEnemyTrash();
+                AudioManager.instance.PlayPlayerDeath();
             }
         }
     }

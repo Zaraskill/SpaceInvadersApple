@@ -47,7 +47,7 @@ public class Invader : MonoBehaviour
     public void Shoot()
     {
         //if (CheckForward()) return;
-
+        AudioManager.instance.PlayEnemyShot();
         Instantiate(projectile, transform.position + Vector3.down, Quaternion.identity);
     }
 
