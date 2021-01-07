@@ -110,6 +110,900 @@ TextureImporter:
   - first:
       213: 5294508914280698897
     second: Move_Invader1_35
+  - first:
+      213: 5420593763655353642
+    second: Move_Invader1_36
+  - first:
+      213: 3728360207589516937
+    second: Move_Invader1_37
+  - first:
+      213: -6273041108371535059
+    second: Move_Invader1_38
+  - first:
+      213: -271940403158333786
+    second: Move_Invader1_39
+  - first:
+      213: -8978475243207779827
+    second: Move_Invader1_40
+  - first:
+      213: 2906898708927168222
+    second: Move_Invader1_41
+  - first:
+      213: -6504202840238989668
+    second: Move_Invader1_42
+  - first:
+      213: -6216123507638161217
+    second: Move_Invader1_43
+  - first:
+      213: -9082769433937613838
+    second: Move_Invader1_44
+  - first:
+      213: 5152951474762278229
+    second: Move_Invader1_45
+  - first:
+      213: 1896943049745717843
+    second: Move_Invader1_46
+  - first:
+      213: -6863518072740092271
+    second: Move_Invader1_47
+  - first:
+      213: -8698834924022305332
+    second: Move_Invader1_48
+  - first:
+      213: -9067951394411568565
+    second: Move_Invader1_49
+  - first:
+      213: -634187521656719410
+    second: Move_Invader1_50
+  - first:
+      213: -2417120482537624165
+    second: Move_Invader1_51
+  - first:
+      213: 8230301723383327734
+    second: Move_Invader1_52
+  - first:
+      213: -1473898618329246577
+    second: Move_Invader1_53
+  - first:
+      213: 5997512259912659579
+    second: Move_Invader1_54
+  - first:
+      213: 6747239140941887052
+    second: Move_Invader1_55
+  - first:
+      213: -7556556436346669706
+    second: Move_Invader1_56
+  - first:
+      213: 1021770806665176016
+    second: Move_Invader1_57
+  - first:
+      213: 4387107156921479747
+    second: Move_Invader1_58
+  - first:
+      213: -3268221788707241151
+    second: Move_Invader1_59
+  - first:
+      213: 5035026772478374590
+    second: Move_Invader1_60
+  - first:
+      213: -9079985987780660263
+    second: Move_Invader1_61
+  - first:
+      213: 6788260724274133707
+    second: Move_Invader1_62
+  - first:
+      213: -6489535638516215823
+    second: Move_Invader1_63
+  - first:
+      213: 3712300944145632497
+    second: Move_Invader1_64
+  - first:
+      213: -7588265155324208970
+    second: Move_Invader1_65
+  - first:
+      213: 4075652339828616813
+    second: Move_Invader1_66
+  - first:
+      213: -2878930046818842684
+    second: Move_Invader1_67
+  - first:
+      213: -1652979169166006834
+    second: Move_Invader1_68
+  - first:
+      213: 1663028732458764660
+    second: Move_Invader1_69
+  - first:
+      213: -589879460627372534
+    second: Move_Invader1_70
+  - first:
+      213: -8492845274189616133
+    second: Move_Invader1_71
+  - first:
+      213: -4976168876870236333
+    second: Move_Invader1_72
+  - first:
+      213: 6696926109842059401
+    second: Move_Invader1_73
+  - first:
+      213: -2480395796224045645
+    second: Move_Invader1_74
+  - first:
+      213: -6424826704982701517
+    second: Move_Invader1_75
+  - first:
+      213: -8352354009631379091
+    second: Move_Invader1_76
+  - first:
+      213: 947051512907087659
+    second: Move_Invader1_77
+  - first:
+      213: 9168955178773525576
+    second: Move_Invader1_78
+  - first:
+      213: 3149133302572466195
+    second: Move_Invader1_79
+  - first:
+      213: -3730067110598907159
+    second: Move_Invader1_80
+  - first:
+      213: 5290742423001397976
+    second: Move_Invader1_81
+  - first:
+      213: 1358648231556626855
+    second: Move_Invader1_82
+  - first:
+      213: 6027375472505898550
+    second: Move_Invader1_83
+  - first:
+      213: -4394274840962832182
+    second: Move_Invader1_84
+  - first:
+      213: -1243375221602025108
+    second: Move_Invader1_85
+  - first:
+      213: 3502669156858400863
+    second: Move_Invader1_86
+  - first:
+      213: -3984189561031926351
+    second: Move_Invader1_87
+  - first:
+      213: -4251085747026374323
+    second: Move_Invader1_88
+  - first:
+      213: -1990709054431589681
+    second: Move_Invader1_89
+  - first:
+      213: -7480049323004925022
+    second: Move_Invader1_90
+  - first:
+      213: 230353131522271283
+    second: Move_Invader1_91
+  - first:
+      213: -5164861458109091055
+    second: Move_Invader1_92
+  - first:
+      213: 5411112859964009830
+    second: Move_Invader1_93
+  - first:
+      213: -1344185505010409801
+    second: Move_Invader1_94
+  - first:
+      213: -4966098128082582646
+    second: Move_Invader1_95
+  - first:
+      213: -8224051064685950146
+    second: Move_Invader1_96
+  - first:
+      213: 5029570393502613374
+    second: Move_Invader1_97
+  - first:
+      213: 7390102477701768718
+    second: Move_Invader1_98
+  - first:
+      213: 8951730477326949836
+    second: Move_Invader1_99
+  - first:
+      213: -4084686712786263358
+    second: Move_Invader1_100
+  - first:
+      213: 2065860160775098332
+    second: Move_Invader1_101
+  - first:
+      213: 2193866692592697215
+    second: Move_Invader1_102
+  - first:
+      213: -8409602654649182724
+    second: Move_Invader1_103
+  - first:
+      213: -7056097057409103969
+    second: Move_Invader1_104
+  - first:
+      213: -7437139375582349048
+    second: Move_Invader1_105
+  - first:
+      213: 590574668794341535
+    second: Move_Invader1_106
+  - first:
+      213: 6467458798924577230
+    second: Move_Invader1_107
+  - first:
+      213: 7970316121723472349
+    second: Move_Invader1_108
+  - first:
+      213: -2043419683018322328
+    second: Move_Invader1_109
+  - first:
+      213: 5887407015125442335
+    second: Move_Invader1_110
+  - first:
+      213: -588027562623374648
+    second: Move_Invader1_111
+  - first:
+      213: -6145215504899243275
+    second: Move_Invader1_112
+  - first:
+      213: -8812002593716496909
+    second: Move_Invader1_113
+  - first:
+      213: 3666732135373738717
+    second: Move_Invader1_114
+  - first:
+      213: -400529703830237212
+    second: Move_Invader1_115
+  - first:
+      213: -2665388348684458332
+    second: Move_Invader1_116
+  - first:
+      213: -2963770746568906160
+    second: Move_Invader1_117
+  - first:
+      213: -1856476079189312811
+    second: Move_Invader1_118
+  - first:
+      213: 1315243352464819435
+    second: Move_Invader1_119
+  - first:
+      213: -7168726874667664048
+    second: Move_Invader1_120
+  - first:
+      213: 2262752838065889658
+    second: Move_Invader1_121
+  - first:
+      213: 5869072506738356530
+    second: Move_Invader1_122
+  - first:
+      213: -4694904678093201100
+    second: Move_Invader1_123
+  - first:
+      213: 4175323198756853192
+    second: Move_Invader1_124
+  - first:
+      213: -6347204474401110990
+    second: Move_Invader1_125
+  - first:
+      213: -1345701826548008413
+    second: Move_Invader1_126
+  - first:
+      213: 4419878786385880810
+    second: Move_Invader1_127
+  - first:
+      213: -3643452868468103760
+    second: Move_Invader1_128
+  - first:
+      213: -4494481752764521815
+    second: Move_Invader1_129
+  - first:
+      213: -5924627887653077463
+    second: Move_Invader1_130
+  - first:
+      213: -5730680547390389344
+    second: Move_Invader1_131
+  - first:
+      213: -7225446178224546245
+    second: Move_Invader1_132
+  - first:
+      213: -8579756614450948275
+    second: Move_Invader1_133
+  - first:
+      213: -591378382980397414
+    second: Move_Invader1_134
+  - first:
+      213: 5665799504817767178
+    second: Move_Invader1_135
+  - first:
+      213: -3716694751688524245
+    second: Move_Invader1_136
+  - first:
+      213: 610310070993921226
+    second: Move_Invader1_137
+  - first:
+      213: -4427932347227080745
+    second: Move_Invader1_138
+  - first:
+      213: 8914015446104937315
+    second: Move_Invader1_139
+  - first:
+      213: 1774364112861218759
+    second: Move_Invader1_140
+  - first:
+      213: 5045710229133330249
+    second: Move_Invader1_141
+  - first:
+      213: 1926927820423596438
+    second: Move_Invader1_142
+  - first:
+      213: -2004132669626600574
+    second: Move_Invader1_143
+  - first:
+      213: -3409058731669680395
+    second: Move_Invader1_144
+  - first:
+      213: -7626424555387978216
+    second: Move_Invader1_145
+  - first:
+      213: -8784029009655969428
+    second: Move_Invader1_146
+  - first:
+      213: 7075954345744551180
+    second: Move_Invader1_147
+  - first:
+      213: -8072979399195262851
+    second: Move_Invader1_148
+  - first:
+      213: -1525780646813650061
+    second: Move_Invader1_149
+  - first:
+      213: 3463210842425613605
+    second: Move_Invader1_150
+  - first:
+      213: 8959414237723253691
+    second: Move_Invader1_151
+  - first:
+      213: 8463106820295928981
+    second: Move_Invader1_152
+  - first:
+      213: -530683740774077326
+    second: Move_Invader1_153
+  - first:
+      213: 7817462394218498419
+    second: Move_Invader1_154
+  - first:
+      213: 549795554666235176
+    second: Move_Invader1_155
+  - first:
+      213: 67053886728883300
+    second: Move_Invader1_156
+  - first:
+      213: -5296771463957439369
+    second: Move_Invader1_157
+  - first:
+      213: 6199458327708157068
+    second: Move_Invader1_158
+  - first:
+      213: 5327559034402959359
+    second: Move_Invader1_159
+  - first:
+      213: -7594195802081279956
+    second: Move_Invader1_160
+  - first:
+      213: 1528623906144065377
+    second: Move_Invader1_161
+  - first:
+      213: -8854116201499956327
+    second: Move_Invader1_162
+  - first:
+      213: -6342898462344959599
+    second: Move_Invader1_163
+  - first:
+      213: -3684679882811994696
+    second: Move_Invader1_164
+  - first:
+      213: -3026337400972659926
+    second: Move_Invader1_165
+  - first:
+      213: 984266490342344493
+    second: Move_Invader1_166
+  - first:
+      213: -8099990441766439452
+    second: Move_Invader1_167
+  - first:
+      213: -3763374588468855821
+    second: Move_Invader1_168
+  - first:
+      213: -6047172045746969307
+    second: Move_Invader1_169
+  - first:
+      213: 4919006810746620817
+    second: Move_Invader1_170
+  - first:
+      213: -2946675423325918951
+    second: Move_Invader1_171
+  - first:
+      213: 1590291875653050369
+    second: Move_Invader1_172
+  - first:
+      213: 1128893493487552999
+    second: Move_Invader1_173
+  - first:
+      213: -8940015076129887023
+    second: Move_Invader1_174
+  - first:
+      213: -9007197464992247658
+    second: Move_Invader1_175
+  - first:
+      213: -8129277238826682533
+    second: Move_Invader1_176
+  - first:
+      213: -2264804112731039933
+    second: Move_Invader1_177
+  - first:
+      213: -1443024885807196159
+    second: Move_Invader1_178
+  - first:
+      213: 6283864938803972798
+    second: Move_Invader1_179
+  - first:
+      213: -8673537947899202666
+    second: Move_Invader1_180
+  - first:
+      213: 274902004018318698
+    second: Move_Invader1_181
+  - first:
+      213: -5452669026654881318
+    second: Move_Invader1_182
+  - first:
+      213: -1560241971324318734
+    second: Move_Invader1_183
+  - first:
+      213: 966619691963214228
+    second: Move_Invader1_184
+  - first:
+      213: 6048161078630584469
+    second: Move_Invader1_185
+  - first:
+      213: 2206245890649257087
+    second: Move_Invader1_186
+  - first:
+      213: -8511103206105648574
+    second: Move_Invader1_187
+  - first:
+      213: 1379585224721878419
+    second: Move_Invader1_188
+  - first:
+      213: -1008276173553326712
+    second: Move_Invader1_189
+  - first:
+      213: 1517389686245348911
+    second: Move_Invader1_190
+  - first:
+      213: -8069328578632789924
+    second: Move_Invader1_191
+  - first:
+      213: -288868326830890367
+    second: Move_Invader1_192
+  - first:
+      213: -1330928955636663722
+    second: Move_Invader1_193
+  - first:
+      213: 4854676298416752804
+    second: Move_Invader1_194
+  - first:
+      213: 9130999226205448636
+    second: Move_Invader1_195
+  - first:
+      213: 4652946276461200057
+    second: Move_Invader1_196
+  - first:
+      213: -7702229377438349945
+    second: Move_Invader1_197
+  - first:
+      213: -8496068528898691265
+    second: Move_Invader1_198
+  - first:
+      213: -4217186475906065117
+    second: Move_Invader1_199
+  - first:
+      213: 5137172338154910630
+    second: Move_Invader1_200
+  - first:
+      213: -5901509510042802751
+    second: Move_Invader1_201
+  - first:
+      213: 9001608645662606206
+    second: Move_Invader1_202
+  - first:
+      213: 1999161507357777447
+    second: Move_Invader1_203
+  - first:
+      213: 5206239958358210538
+    second: Move_Invader1_204
+  - first:
+      213: -5385992984799031595
+    second: Move_Invader1_205
+  - first:
+      213: -5154548442358239131
+    second: Move_Invader1_206
+  - first:
+      213: 3380709689115048189
+    second: Move_Invader1_207
+  - first:
+      213: -1919805939823163026
+    second: Move_Invader1_208
+  - first:
+      213: 4617683061181763884
+    second: Move_Invader1_209
+  - first:
+      213: 1072288253522655670
+    second: Move_Invader1_210
+  - first:
+      213: 7683463682471149087
+    second: Move_Invader1_211
+  - first:
+      213: -8425798184012120654
+    second: Move_Invader1_212
+  - first:
+      213: 1089955903791836763
+    second: Move_Invader1_213
+  - first:
+      213: 6224395965725227631
+    second: Move_Invader1_214
+  - first:
+      213: -2189986967119607955
+    second: Move_Invader1_215
+  - first:
+      213: 413387868260203736
+    second: Move_Invader1_216
+  - first:
+      213: -251516994605824048
+    second: Move_Invader1_217
+  - first:
+      213: -6359612989218705305
+    second: Move_Invader1_218
+  - first:
+      213: 4675449544176280232
+    second: Move_Invader1_219
+  - first:
+      213: -5076109030456961679
+    second: Move_Invader1_220
+  - first:
+      213: -3128534746946807228
+    second: Move_Invader1_221
+  - first:
+      213: -8876388835544146651
+    second: Move_Invader1_222
+  - first:
+      213: -2078993695792857831
+    second: Move_Invader1_223
+  - first:
+      213: -3281554181650004374
+    second: Move_Invader1_224
+  - first:
+      213: 4312852957086447392
+    second: Move_Invader1_225
+  - first:
+      213: -5333371067712088554
+    second: Move_Invader1_226
+  - first:
+      213: -3617056377078578026
+    second: Move_Invader1_227
+  - first:
+      213: 4918623902557592901
+    second: Move_Invader1_228
+  - first:
+      213: -727408285220392241
+    second: Move_Invader1_229
+  - first:
+      213: 5846784058161094161
+    second: Move_Invader1_230
+  - first:
+      213: -4481117737715502576
+    second: Move_Invader1_231
+  - first:
+      213: 1710198117921694169
+    second: Move_Invader1_232
+  - first:
+      213: 1604923500190604795
+    second: Move_Invader1_233
+  - first:
+      213: 2867213691851815601
+    second: Move_Invader1_234
+  - first:
+      213: 5262057793021195589
+    second: Move_Invader1_235
+  - first:
+      213: -2472144251173041915
+    second: Move_Invader1_236
+  - first:
+      213: -2136248720676323594
+    second: Move_Invader1_237
+  - first:
+      213: -4968360469918688681
+    second: Move_Invader1_238
+  - first:
+      213: 2474123298651865012
+    second: Move_Invader1_239
+  - first:
+      213: -6734445350423725617
+    second: Move_Invader1_240
+  - first:
+      213: -2507129757585569041
+    second: Move_Invader1_241
+  - first:
+      213: -8362367416588493901
+    second: Move_Invader1_242
+  - first:
+      213: -3435378444939276810
+    second: Move_Invader1_243
+  - first:
+      213: 1716365212068927093
+    second: Move_Invader1_244
+  - first:
+      213: -2005970015557327292
+    second: Move_Invader1_245
+  - first:
+      213: -9106946540457986475
+    second: Move_Invader1_246
+  - first:
+      213: 2152538003989132877
+    second: Move_Invader1_247
+  - first:
+      213: 378340734269289700
+    second: Move_Invader1_248
+  - first:
+      213: 3935263606496435841
+    second: Move_Invader1_249
+  - first:
+      213: -6479057366933093766
+    second: Move_Invader1_250
+  - first:
+      213: 5194655140825619439
+    second: Move_Invader1_251
+  - first:
+      213: -1501446380992177254
+    second: Move_Invader1_252
+  - first:
+      213: -7083092891795820355
+    second: Move_Invader1_253
+  - first:
+      213: -7010260411397141356
+    second: Move_Invader1_254
+  - first:
+      213: -1713893006000743261
+    second: Move_Invader1_255
+  - first:
+      213: -7862111971111892
+    second: Move_Invader1_256
+  - first:
+      213: -7690165324257277193
+    second: Move_Invader1_257
+  - first:
+      213: 8585300963181780381
+    second: Move_Invader1_258
+  - first:
+      213: -2608289005340414595
+    second: Move_Invader1_259
+  - first:
+      213: -6622187431152587621
+    second: Move_Invader1_260
+  - first:
+      213: -4683252395784573732
+    second: Move_Invader1_261
+  - first:
+      213: 4323086816188351512
+    second: Move_Invader1_262
+  - first:
+      213: -7260967422282818639
+    second: Move_Invader1_263
+  - first:
+      213: 90951808606767527
+    second: Move_Invader1_264
+  - first:
+      213: -4782848208866249438
+    second: Move_Invader1_265
+  - first:
+      213: 7472321047631053520
+    second: Move_Invader1_266
+  - first:
+      213: -3617699748933006374
+    second: Move_Invader1_267
+  - first:
+      213: -7009559112525868364
+    second: Move_Invader1_268
+  - first:
+      213: -4835139415388800829
+    second: Move_Invader1_269
+  - first:
+      213: -30749949182494523
+    second: Move_Invader1_270
+  - first:
+      213: 5390593146088306203
+    second: Move_Invader1_271
+  - first:
+      213: -7360917228019946115
+    second: Move_Invader1_272
+  - first:
+      213: -7583351682608973644
+    second: Move_Invader1_273
+  - first:
+      213: 2487505011723619284
+    second: Move_Invader1_274
+  - first:
+      213: 7309907711186880388
+    second: Move_Invader1_275
+  - first:
+      213: 4340921479694424143
+    second: Move_Invader1_276
+  - first:
+      213: -8750042699385542337
+    second: Move_Invader1_277
+  - first:
+      213: 5791031461355886081
+    second: Move_Invader1_278
+  - first:
+      213: 3012994759480524802
+    second: Move_Invader1_279
+  - first:
+      213: -7922568211201325541
+    second: Move_Invader1_280
+  - first:
+      213: -6527461054185226306
+    second: Move_Invader1_281
+  - first:
+      213: -180947738690888518
+    second: Move_Invader1_282
+  - first:
+      213: 6593169216218600992
+    second: Move_Invader1_283
+  - first:
+      213: 4601337613301273450
+    second: Move_Invader1_284
+  - first:
+      213: -2954653148143847995
+    second: Move_Invader1_285
+  - first:
+      213: 8128306456350524988
+    second: Move_Invader1_286
+  - first:
+      213: 8664085365830556374
+    second: Move_Invader1_287
+  - first:
+      213: -2208434336395914757
+    second: Move_Invader1_288
+  - first:
+      213: -8728699973792123374
+    second: Move_Invader1_289
+  - first:
+      213: -6519087593364330770
+    second: Move_Invader1_290
+  - first:
+      213: 8184679647256522985
+    second: Move_Invader1_291
+  - first:
+      213: -7804774896873423987
+    second: Move_Invader1_292
+  - first:
+      213: -393441454488734253
+    second: Move_Invader1_293
+  - first:
+      213: -9004024679866680543
+    second: Move_Invader1_294
+  - first:
+      213: 718260731628435519
+    second: Move_Invader1_295
+  - first:
+      213: -7844884113070128319
+    second: Move_Invader1_296
+  - first:
+      213: 119667991924675606
+    second: Move_Invader1_297
+  - first:
+      213: 3553908506548678738
+    second: Move_Invader1_298
+  - first:
+      213: -3363301987048321953
+    second: Move_Invader1_299
+  - first:
+      213: 7471014822917434421
+    second: Move_Invader1_300
+  - first:
+      213: 2242518597571789928
+    second: Move_Invader1_301
+  - first:
+      213: 3996510558495657417
+    second: Move_Invader1_302
+  - first:
+      213: -2949234369971182107
+    second: Move_Invader1_303
+  - first:
+      213: 3730585279684585515
+    second: Move_Invader1_304
+  - first:
+      213: 1246511306320120041
+    second: Move_Invader1_305
+  - first:
+      213: 7891513830477302386
+    second: Move_Invader1_306
+  - first:
+      213: -6325229854757220188
+    second: Move_Invader1_307
+  - first:
+      213: -3255350430335016503
+    second: Move_Invader1_308
+  - first:
+      213: 5391725717616286866
+    second: Move_Invader1_309
+  - first:
+      213: -8515401084425713278
+    second: Move_Invader1_310
+  - first:
+      213: 5923372424456384453
+    second: Move_Invader1_311
+  - first:
+      213: -3118512157706591752
+    second: Move_Invader1_312
+  - first:
+      213: -4681386779091887079
+    second: Move_Invader1_313
+  - first:
+      213: 3162110569816688068
+    second: Move_Invader1_314
+  - first:
+      213: 2179590964789920644
+    second: Move_Invader1_315
+  - first:
+      213: -247073953579573195
+    second: Move_Invader1_316
+  - first:
+      213: -6115435236958728716
+    second: Move_Invader1_317
+  - first:
+      213: -435401248101802582
+    second: Move_Invader1_318
+  - first:
+      213: 7685594445152239238
+    second: Move_Invader1_319
+  - first:
+      213: 1844196129724607980
+    second: Move_Invader1_320
+  - first:
+      213: -4587296600449519341
+    second: Move_Invader1_321
+  - first:
+      213: 374322307318906400
+    second: Move_Invader1_322
+  - first:
+      213: -2348531754094843142
+    second: Move_Invader1_323
+  - first:
+      213: 1663123838979643066
+    second: Move_Invader1_324
+  - first:
+      213: 6632273456407189245
+    second: Move_Invader1_325
+  - first:
+      213: -705452319699382945
+    second: Move_Invader1_326
+  - first:
+      213: -7145777482473148651
+    second: Move_Invader1_327
+  - first:
+      213: -2291607846744121156
+    second: Move_Invader1_328
+  - first:
+      213: -5039947365078872142
+    second: Move_Invader1_329
+  - first:
+      213: 9150106137154733188
+    second: Move_Invader1_330
+  - first:
+      213: -1044762417008164608
+    second: Move_Invader1_331
+  - first:
+      213: 6914684068507016992
+    second: Move_Invader1_332
+  - first:
+      213: -3875108756625118150
+    second: Move_Invader1_333
   externalObjects: {}
   serializedVersion: 11
   mipmaps:
@@ -198,10 +1092,10 @@ TextureImporter:
       name: Move_Invader1_0
       rect:
         serializedVersion: 2
-        x: 1198
-        y: 2755
-        width: 172
-        height: 139
+        x: 127
+        y: 2688
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -219,10 +1113,10 @@ TextureImporter:
       name: Move_Invader1_1
       rect:
         serializedVersion: 2
-        x: 1823
-        y: 2893
-        width: 4
-        height: 4
+        x: 641
+        y: 2687
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -240,10 +1134,10 @@ TextureImporter:
       name: Move_Invader1_2
       rect:
         serializedVersion: 2
-        x: 2222
-        y: 2752
-        width: 176
-        height: 145
+        x: 1152
+        y: 2690
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -261,10 +1155,10 @@ TextureImporter:
       name: Move_Invader1_3
       rect:
         serializedVersion: 2
-        x: 2844
-        y: 2893
-        width: 4
-        height: 4
+        x: 1664
+        y: 2689
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -282,10 +1176,10 @@ TextureImporter:
       name: Move_Invader1_4
       rect:
         serializedVersion: 2
-        x: 685
-        y: 2753
-        width: 171
-        height: 135
+        x: 2176
+        y: 2689
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -303,10 +1197,10 @@ TextureImporter:
       name: Move_Invader1_5
       rect:
         serializedVersion: 2
-        x: 803
-        y: 2885
-        width: 4
-        height: 5
+        x: 2691
+        y: 2687
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -321,139 +1215,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_6
-      rect:
-        serializedVersion: 2
-        x: 1709
-        y: 2753
-        width: 174
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b38962cdffa2ce450800000000000000
-      internalID: 6119313272088205371
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_7
-      rect:
-        serializedVersion: 2
-        x: 2734
-        y: 2750
-        width: 177
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 454647c3f3f141850800000000000000
-      internalID: 6346732131329533012
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_8
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 2752
-        width: 168
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 94b8da667abe1a9c0800000000000000
-      internalID: -3917591096620905655
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_9
-      rect:
-        serializedVersion: 2
-        x: 175
-        y: 2234
-        width: 175
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 81701d2fc9250bbc0800000000000000
-      internalID: -3769422054066944232
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_10
-      rect:
-        serializedVersion: 2
-        x: 795
-        y: 2375
-        width: 4
-        height: 5
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 32afb304a3450a840800000000000000
-      internalID: 5233275376167025187
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_11
-      rect:
-        serializedVersion: 2
-        x: 1198
-        y: 2230
-        width: 177
-        height: 148
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: e90bd29f95024f5e0800000000000000
-      internalID: -1876839573901954914
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Move_Invader1_12
       rect:
         serializedVersion: 2
-        x: 1711
-        y: 2230
-        width: 175
-        height: 147
+        x: 129
+        y: 2179
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -468,244 +1236,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_13
-      rect:
-        serializedVersion: 2
-        x: 686
-        y: 2233
-        width: 177
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: b0474248ab66eb9a0800000000000000
-      internalID: -6215417484457774069
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_14
-      rect:
-        serializedVersion: 2
-        x: 2222
-        y: 2230
-        width: 176
-        height: 145
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 5cc49195ced1bdf90800000000000000
-      internalID: -6927910700835058491
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_15
-      rect:
-        serializedVersion: 2
-        x: 2847
-        y: 2371
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 093720db97f7081d0800000000000000
-      internalID: -3350537961924824176
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_16
-      rect:
-        serializedVersion: 2
-        x: 2734
-        y: 2231
-        width: 174
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 687efb8663a5f36c0800000000000000
-      internalID: -4161508340934908026
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_17
-      rect:
-        serializedVersion: 2
-        x: 173
-        y: 1721
-        width: 173
-        height: 140
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 8d411a0064ba7e1a0800000000000000
-      internalID: -6780262396836375336
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_18
-      rect:
-        serializedVersion: 2
-        x: 685
-        y: 1724
-        width: 171
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 84944238837339630800000000000000
-      internalID: 3932547615482464584
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_19
-      rect:
-        serializedVersion: 2
-        x: 803
-        y: 1856
-        width: 4
-        height: 4
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7ec6c4cecd91f1640800000000000000
-      internalID: 5052785743580916967
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_20
-      rect:
-        serializedVersion: 2
-        x: 1198
-        y: 1726
-        width: 166
-        height: 133
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 70cb9c18eb38ce330800000000000000
-      internalID: 3741510244682546183
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_21
-      rect:
-        serializedVersion: 2
-        x: 1708
-        y: 1729
-        width: 166
-        height: 132
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: fe34f906765931e80800000000000000
-      internalID: -8209053424531061777
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_22
-      rect:
-        serializedVersion: 2
-        x: 2216
-        y: 1730
-        width: 171
-        height: 134
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 86b382a0b9604ffd0800000000000000
-      internalID: -2309213445974115480
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_23
-      rect:
-        serializedVersion: 2
-        x: 2726
-        y: 1730
-        width: 173
-        height: 138
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 6decf6be0a819e110800000000000000
-      internalID: 1290589847642164950
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Move_Invader1_24
       rect:
         serializedVersion: 2
-        x: 164
-        y: 1219
-        width: 174
-        height: 138
+        x: 640
+        y: 2177
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -720,34 +1257,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_25
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 1216
-        width: 176
-        height: 142
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: d9394b371c5b9dac0800000000000000
-      internalID: -3829830165627366499
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Move_Invader1_26
       rect:
         serializedVersion: 2
-        x: 1186
-        y: 1214
-        width: 175
-        height: 143
+        x: 1152
+        y: 2177
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -765,10 +1281,10 @@ TextureImporter:
       name: Move_Invader1_27
       rect:
         serializedVersion: 2
-        x: 1696
-        y: 1211
-        width: 178
-        height: 143
+        x: 1665
+        y: 2177
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -783,55 +1299,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_28
-      rect:
-        serializedVersion: 2
-        x: 2209
-        y: 1208
-        width: 177
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 38937029aeec646d0800000000000000
-      internalID: -3006488194355611261
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
-      name: Move_Invader1_29
-      rect:
-        serializedVersion: 2
-        x: 2720
-        y: 1207
-        width: 177
-        height: 144
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 7f777c41558946700800000000000000
-      internalID: 532718147124819959
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Move_Invader1_30
       rect:
         serializedVersion: 2
-        x: 161
-        y: 695
-        width: 177
-        height: 143
+        x: 2176
+        y: 2177
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -846,34 +1320,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_31
-      rect:
-        serializedVersion: 2
-        x: 674
-        y: 695
-        width: 176
-        height: 141
-      alignment: 0
-      pivot: {x: 0, y: 0}
-      border: {x: 0, y: 0, z: 0, w: 0}
-      outline: []
-      physicsShape: []
-      tessellationDetail: 0
-      bones: []
-      spriteID: 646bd2b53885eaf90800000000000000
-      internalID: -6940512654537673146
-      vertices: []
-      indices: 
-      edges: []
-      weights: []
-    - serializedVersion: 2
       name: Move_Invader1_32
       rect:
         serializedVersion: 2
-        x: 1189
-        y: 697
-        width: 174
-        height: 138
+        x: 2688
+        y: 2177
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -888,13 +1341,13 @@ TextureImporter:
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_33
+      name: Move_Invader1_48
       rect:
         serializedVersion: 2
-        x: 1702
-        y: 698
-        width: 172
-        height: 137
+        x: 130
+        y: 1663
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -902,20 +1355,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: bf3ccaa41ded2e9b0800000000000000
-      internalID: -5052230841473907717
+      spriteID: ccd63e999b7874780800000000000000
+      internalID: -8698834924022305332
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_34
+      name: Move_Invader1_50
       rect:
         serializedVersion: 2
-        x: 2216
-        y: 700
-        width: 171
-        height: 135
+        x: 641
+        y: 1662
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -923,20 +1376,20 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 25686ecaeda92cbe0800000000000000
-      internalID: -1458433048140413358
+      spriteID: ec77aa22fc9e237f0800000000000000
+      internalID: -634187521656719410
       vertices: []
       indices: 
       edges: []
       weights: []
     - serializedVersion: 2
-      name: Move_Invader1_35
+      name: Move_Invader1_51
       rect:
         serializedVersion: 2
-        x: 2731
-        y: 703
-        width: 168
-        height: 132
+        x: 1151
+        y: 1662
+        width: 256
+        height: 256
       alignment: 0
       pivot: {x: 0, y: 0}
       border: {x: 0, y: 0, z: 0, w: 0}
@@ -944,8 +1397,323 @@ TextureImporter:
       physicsShape: []
       tessellationDetail: 0
       bones: []
-      spriteID: 11417d75ecfd97940800000000000000
-      internalID: 5294508914280698897
+      spriteID: b9d26034ab9a47ed0800000000000000
+      internalID: -2417120482537624165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_53
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 1663
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f84db830409ab8be0800000000000000
+      internalID: -1473898618329246577
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_56
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 1662
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6757d5e15f7b12790800000000000000
+      internalID: -7556556436346669706
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_57
+      rect:
+        serializedVersion: 2
+        x: 2688
+        y: 1663
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d36425922f0e2e00800000000000000
+      internalID: 1021770806665176016
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_72
+      rect:
+        serializedVersion: 2
+        x: 129
+        y: 1153
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3578bc775c811fab0800000000000000
+      internalID: -4976168876870236333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_74
+      rect:
+        serializedVersion: 2
+        x: 641
+        y: 1153
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bd81bf3a2dd39dd0800000000000000
+      internalID: -2480395796224045645
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_76
+      rect:
+        serializedVersion: 2
+        x: 1153
+        y: 1151
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d61bc99e74a761c80800000000000000
+      internalID: -8352354009631379091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_78
+      rect:
+        serializedVersion: 2
+        x: 1665
+        y: 1151
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8443648e72cae3f70800000000000000
+      internalID: 9168955178773525576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_80
+      rect:
+        serializedVersion: 2
+        x: 2177
+        y: 1151
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ea6264c9b32c3cc0800000000000000
+      internalID: -3730067110598907159
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_82
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 1151
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7a935a04e53ead210800000000000000
+      internalID: 1358648231556626855
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_96
+      rect:
+        serializedVersion: 2
+        x: 127
+        y: 639
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3b88ba212d4edd80800000000000000
+      internalID: -8224051064685950146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_98
+      rect:
+        serializedVersion: 2
+        x: 639
+        y: 639
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e06e52d8c0bee8660800000000000000
+      internalID: 7390102477701768718
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_100
+      rect:
+        serializedVersion: 2
+        x: 1151
+        y: 639
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2c2ed9983174057c0800000000000000
+      internalID: -4084686712786263358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_102
+      rect:
+        serializedVersion: 2
+        x: 1666
+        y: 639
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7f7c80222e227e10800000000000000
+      internalID: 2193866692592697215
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_104
+      rect:
+        serializedVersion: 2
+        x: 2175
+        y: 641
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f9783707c15b31e90800000000000000
+      internalID: -7056097057409103969
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_106
+      rect:
+        serializedVersion: 2
+        x: 2687
+        y: 641
+        width: 256
+        height: 256
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f98a4d24884223800800000000000000
+      internalID: 590574668794341535
       vertices: []
       indices: 
       edges: []
