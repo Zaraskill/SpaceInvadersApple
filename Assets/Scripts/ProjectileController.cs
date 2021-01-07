@@ -38,6 +38,7 @@ public class ProjectileController : MonoBehaviour
             Instantiate(particleExplosion, collision.gameObject.transform.position, Quaternion.identity);
             if (collision.gameObject.GetComponent<Invader>())
             {
+                UIManager.instance.BloodStain(collision.gameObject.transform.position);
                 collision.gameObject.GetComponent<Invader>().Explode();
             }
         }

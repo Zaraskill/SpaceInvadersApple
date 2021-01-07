@@ -12,6 +12,7 @@ public class UIManager : MonoBehaviour
     public Image lifeOne;
     public Image lifeTwo;
     public Image lifeThree;
+    public GameObject blood;
 
     public TMP_Text ScoreText;
     public int ScoreValue;
@@ -61,5 +62,16 @@ public class UIManager : MonoBehaviour
     public void UpdateScore()
     {
         ScoreText.text = "Score : " + ScoreValue; 
+    }
+
+    public void BloodStain(Vector3 position)
+    {
+        GameObject image = Instantiate(blood, this.GetComponent<RectTransform>());
+        RectTransform transformRect = image.GetComponent<RectTransform>();
+        transformRect.position = position;
+        float scale = Random.Range(0.5f, 2f);
+        transformRect.localScale = new Vector3(scale, scale, 0);
+        float rotation = Random.Range(0, 360);
+        transformRect.Rotate(new Vector3(0, 0, rotation));
     }
 }
