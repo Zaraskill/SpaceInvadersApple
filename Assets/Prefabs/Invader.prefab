@@ -96,6 +96,9 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   projectile: {fileID: 3266789268779561891, guid: 0450969727e7dcd4ab7641039808324c,
     type: 3}
+  ScoreUi: {fileID: 2177953087286481236, guid: aa45f0fe3189c354eb2436fe444cbbb5, type: 3}
   mask:
     serializedVersion: 2
     m_Bits: 256
+  hitSide: 0
+  scorePoints: 100

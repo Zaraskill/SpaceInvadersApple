@@ -6,8 +6,9 @@ public class Invader : MonoBehaviour
 {
     public static List<Invader> list = new List<Invader>();
 
-    [SerializeField] private GameObject projectile;
-    [SerializeField] private LayerMask mask;
+    [SerializeField] private GameObject projectile = null;
+    [SerializeField] private Canvas ScoreUi = null;
+    [SerializeField] private LayerMask mask = 0;
 
     private float invadersCount = 55;
 
@@ -58,8 +59,8 @@ public class Invader : MonoBehaviour
         list.Remove(this);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
         InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
+        Instantiate(ScoreUi, transform.position, Quaternion.identity);
         UIManager.instance.ScoreValue += scorePoints;
-        UIManager.instance.UpdateScore();
 
         if (list.Count == 1)
         {
