@@ -11,6 +11,7 @@ public class Invader : MonoBehaviour
     [SerializeField] private LayerMask mask = 0;
 
     private float invadersCount = 55;
+    private Animator _animator;
 
     public bool hitSide = false;
 
@@ -20,6 +21,7 @@ public class Invader : MonoBehaviour
     void Start()
     {
         list.Add(this);
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,12 +53,49 @@ public class Invader : MonoBehaviour
     {
         //if (CheckForward()) return;
 
+        _animator.SetBool("isFiring", true);
+        StartCoroutine(Fire());
         Instantiate(projectile, transform.position + Vector3.down, Quaternion.identity);
     }
 
     public void Explode()
     {
         list.Remove(this);
+        if (_animator.GetBool("isFiring") || _animator.GetBool("Dodge"))
+        {
+            StopAllCoroutines();
+        }
+        _animator.SetBool("Death", true);
+        StartCoroutine(Death());
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
+
+    public void DodgeShoot()
+    {
+        _animator.SetBool("Dodge", false);
+        StartCoroutine(Dodge());
+    }
+
+    IEnumerator Fire()
+    {
+        yield return new WaitForSeconds(0.5f);
+        _animator.SetBool("isFiring", false);
+    }
+
+    IEnumerator Dodge()
+    {
+        yield return new WaitForSeconds(72/120);
+        _animator.SetBool("Dodge", false);
+    }
+
+    IEnumerator Death()
+    {
+        yield return new WaitForSeconds(0.67f);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
         InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
         Instantiate(ScoreUi, transform.position, Quaternion.identity);
@@ -83,10 +122,5 @@ public class Invader : MonoBehaviour
             AudioManager.instance.IncreasePitch(1.0625f);
         }
         Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
     }
 }
