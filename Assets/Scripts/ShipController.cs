@@ -7,6 +7,7 @@ public class ShipController : MonoBehaviour
 {
     private int direction;
     private Rigidbody2D _rigidbody;
+    private Animator _animator;
     private bool canShoot;
     private GameObject shoot;
 
@@ -21,6 +22,7 @@ public class ShipController : MonoBehaviour
     void Start()
     {
         _rigidbody = GetComponent<Rigidbody2D>();
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,6 +53,8 @@ public class ShipController : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.Space) && canShoot)
         {
             AudioManager.instance.PlayPlayerShot();
+            _animator.SetBool("isFiring", true);
+            StartCoroutine(Fire());
             canShoot = false;
             Shoot();
         }
@@ -77,15 +81,41 @@ public class ShipController : MonoBehaviour
             life--;
             Destroy(collision.gameObject);
             UIManager.instance.UpdateLifes(life);
+            _animator.SetBool("isFiring", false);
+            _animator.SetBool("die", true);
             if(life <= 0)
             {
                 //Gameover
             }
             else
             {
+                StartCoroutine(WaitingForRespawn());
                 AudioManager.instance.PlayEnemyTrash();
                 AudioManager.instance.PlayPlayerDeath();
             }
         }
+    }
+
+    IEnumerator WaitingForRespawn()
+    {
+        float wait = 5 / 6;
+        yield return new WaitForSecondsRealtime(wait);
+        _animator.SetBool("die", false);
+        _animator.SetBool("respawn", true);
+        StartCoroutine(Respawn());
+    }
+
+    IEnumerator Respawn()
+    {
+        float wait = 35/60;
+        yield return new WaitForSecondsRealtime(wait);
+        _animator.SetBool("respawn", false);
+    }
+
+    IEnumerator Fire()
+    {
+        float wait = 4/6;
+        yield return new WaitForSecondsRealtime(wait);
+        _animator.SetBool("isFiring", false);
     }
 }
