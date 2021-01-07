@@ -12,7 +12,9 @@ public class UIManager : MonoBehaviour
     public Image lifeOne;
     public Image lifeTwo;
     public Image lifeThree;
-    
+
+    public TMP_Text trashText;
+    public List<string> trashtalkSentences;
 
     public TMP_Text ScoreText;
     public int ScoreValue;
@@ -73,5 +75,18 @@ public class UIManager : MonoBehaviour
         transformRect.localScale = new Vector3(scale, scale, 0);
         float rotation = Random.Range(0, 360);
         transformRect.Rotate(new Vector3(0, 0, rotation));
+    }
+
+    public void TrashtalkPlayer()
+    {
+        StopCoroutine(Sentence());
+        trashText.text = trashtalkSentences[Random.Range(0, trashtalkSentences.Count)];
+        StartCoroutine(Sentence());
+    }
+
+    IEnumerator Sentence()
+    {
+        yield return new WaitForSeconds(2f);
+        trashText.text = "";
     }
 }

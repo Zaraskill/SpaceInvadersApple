@@ -603,7 +603,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Someone can help them? it's ridiculous right now...
+  m_text: 
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
   m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
@@ -630,7 +630,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 61.2
+  m_fontSize: 36
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1151,6 +1151,16 @@ MonoBehaviour:
   lifeOne: {fileID: 790686901}
   lifeTwo: {fileID: 2143283489}
   lifeThree: {fileID: 369378696}
+  trashText: {fileID: 880946182}
+  trashtalkSentences:
+  - Noob!
+  - My Grandmother is a better gamer !
+  - Even Stormtrooper has a better AIM !
+  - Are you sick?
+  - You're sooooo bad
+  - Someone can help them? it's ridiculous right now...
+  - I wanna die but this person can't touch me...
+  - Have you ever thought about using glasses?
   ScoreText: {fileID: 104484531}
   ScoreValue: 0
 --- !u!114 &1733245163
