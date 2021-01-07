@@ -11,15 +11,18 @@ public class Invader : MonoBehaviour
     [SerializeField] private LayerMask mask = 0;
 
     private float invadersCount = 55;
+    private Animator _animator;
 
     public bool hitSide = false;
-
+    public GameObject particleExplosion;
+    public GameObject blood;
     public int scorePoints = 100;
 
     // Start is called before the first frame update
     void Start()
     {
         list.Add(this);
+        _animator = GetComponent<Animator>();
     }
 
     // Update is called once per frame
@@ -51,12 +54,51 @@ public class Invader : MonoBehaviour
     {
         //if (CheckForward()) return;
 
+        _animator.SetBool("isFiring", true);
+        StartCoroutine(Fire());
         Instantiate(projectile, transform.position + Vector3.down, Quaternion.identity);
     }
 
     public void Explode()
     {
         list.Remove(this);
+        if (_animator.GetBool("isFiring") || _animator.GetBool("Dodge"))
+        {
+            StopAllCoroutines();
+        }
+        _animator.SetBool("Death", true);
+        StartCoroutine(Death());
+        
+    }
+
+    private void OnCollisionEnter2D(Collision2D collision)
+    {
+        
+    }
+
+    public void DodgeShoot()
+    {
+        _animator.SetBool("Dodge", false);
+        StartCoroutine(Dodge());
+    }
+
+    IEnumerator Fire()
+    {
+        yield return new WaitForSeconds(0.5f);
+        _animator.SetBool("isFiring", false);
+    }
+
+    IEnumerator Dodge()
+    {
+        yield return new WaitForSeconds(72/120);
+        _animator.SetBool("Dodge", false);
+    }
+
+    IEnumerator Death()
+    {
+        yield return new WaitForSeconds(0.67f);
+        Instantiate(particleExplosion, transform.position, Quaternion.identity);
+        UIManager.instance.BloodStain(transform.position, blood);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
         InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
         Instantiate(ScoreUi, transform.position, Quaternion.identity);
@@ -65,28 +107,23 @@ public class Invader : MonoBehaviour
         if (list.Count == 1)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.8f;
-            AudioManager.instance.IncreasePitch(1.25f);
+            AudioManager.instance.IncreasePitch(1.1f);
         }
         else if (list.Count <= 5)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.6f;
-            AudioManager.instance.IncreasePitch(1.1975f);
+            AudioManager.instance.IncreasePitch(1.075f);
         }
         else if (list.Count <= 10)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.3f;
-            AudioManager.instance.IncreasePitch(1.125f);
+            AudioManager.instance.IncreasePitch(1.05f);
         }
         else if (list.Count <= 15)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.2f;
-            AudioManager.instance.IncreasePitch(1.0625f);
+            AudioManager.instance.IncreasePitch(1.025f);
         }
         Destroy(gameObject);
-    }
-
-    private void OnCollisionEnter2D(Collision2D collision)
-    {
-        
     }
 }

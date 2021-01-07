@@ -102,6 +102,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   hitSide: 0
+  particleExplosion: {fileID: 5455373198877657541, guid: 48e9761de8a7a164697ac84e88662835,
+    type: 3}
+  blood: {fileID: 9050514142239686724, guid: f25bdb6e0ea0a7c44b7b7bcfb7f18f8c, type: 3}
   scorePoints: 100
 --- !u!95 &-6922190694338486777
 Animator:
@@ -113,7 +116,7 @@ Animator:
   m_GameObject: {fileID: 555611244256591559}
   m_Enabled: 1
   m_Avatar: {fileID: 0}
-  m_Controller: {fileID: 0}
+  m_Controller: {fileID: 9100000, guid: aa5a2097b6a675b45a16ba211217e4b5, type: 2}
   m_CullingMode: 0
   m_UpdateMode: 0
   m_ApplyRootMotion: 0
