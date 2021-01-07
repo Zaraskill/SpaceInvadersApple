@@ -1,0 +1,848 @@
+fileFormatVersion: 2
+guid: 4ab728cf6a78e2e4489fa7af4087833a
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -2539288361971974496
+    second: Fire_Invader1_0
+  - first:
+      213: -3233493111225264916
+    second: Fire_Invader1_1
+  - first:
+      213: 1624998888493967275
+    second: Fire_Invader1_2
+  - first:
+      213: 3640232690513376010
+    second: Fire_Invader1_3
+  - first:
+      213: 210485489001064203
+    second: Fire_Invader1_4
+  - first:
+      213: 900545937178022226
+    second: Fire_Invader1_5
+  - first:
+      213: 499971725861028594
+    second: Fire_Invader1_6
+  - first:
+      213: 4160473413531808734
+    second: Fire_Invader1_7
+  - first:
+      213: -6200934725494575266
+    second: Fire_Invader1_8
+  - first:
+      213: -1083211600413810928
+    second: Fire_Invader1_9
+  - first:
+      213: 3782004260917584304
+    second: Fire_Invader1_10
+  - first:
+      213: 5033501074436910624
+    second: Fire_Invader1_11
+  - first:
+      213: 9145541175017515810
+    second: Fire_Invader1_12
+  - first:
+      213: -2417504959059504579
+    second: Fire_Invader1_13
+  - first:
+      213: 8713818762750848821
+    second: Fire_Invader1_14
+  - first:
+      213: -5996104262783792110
+    second: Fire_Invader1_15
+  - first:
+      213: -7306091769414466333
+    second: Fire_Invader1_16
+  - first:
+      213: 7925902289485451670
+    second: Fire_Invader1_17
+  - first:
+      213: 3131377665072285908
+    second: Fire_Invader1_18
+  - first:
+      213: 4298751485613294830
+    second: Fire_Invader1_19
+  - first:
+      213: 1082932141836361121
+    second: Fire_Invader1_20
+  - first:
+      213: 974489199542373592
+    second: Fire_Invader1_21
+  - first:
+      213: -2121786127719904326
+    second: Fire_Invader1_22
+  - first:
+      213: -2435416636696714202
+    second: Fire_Invader1_23
+  - first:
+      213: 3825002522046204345
+    second: Fire_Invader1_24
+  - first:
+      213: -7843031534256946379
+    second: Fire_Invader1_25
+  - first:
+      213: -5289387579568901124
+    second: Fire_Invader1_26
+  - first:
+      213: -1962197226023200798
+    second: Fire_Invader1_27
+  - first:
+      213: 2022639262879824964
+    second: Fire_Invader1_28
+  - first:
+      213: 4410932576945706265
+    second: Fire_Invader1_29
+  - first:
+      213: -5034102764466053389
+    second: Fire_Invader1_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Fire_Invader1_0
+      rect:
+        serializedVersion: 2
+        x: 172
+        y: 2752
+        width: 169
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0ae706240b2a2ccd0800000000000000
+      internalID: -2539288361971974496
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_1
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 2758
+        width: 178
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ce4deb9a5235023d0800000000000000
+      internalID: -3233493111225264916
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_2
+      rect:
+        serializedVersion: 2
+        x: 1187
+        y: 2762
+        width: 186
+        height: 114
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ba7661521e72d8610800000000000000
+      internalID: 1624998888493967275
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_3
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 2767
+        width: 193
+        height: 108
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a0370d16854b48230800000000000000
+      internalID: 3640232690513376010
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_4
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 2770
+        width: 198
+        height: 103
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b076842ef6bcbe200800000000000000
+      internalID: 210485489001064203
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_5
+      rect:
+        serializedVersion: 2
+        x: 2714
+        y: 2771
+        width: 204
+        height: 102
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 251da6132c16f7c00800000000000000
+      internalID: 900545937178022226
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_6
+      rect:
+        serializedVersion: 2
+        x: 154
+        y: 2261
+        width: 205
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f28fadb2a140f600800000000000000
+      internalID: 499971725861028594
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_7
+      rect:
+        serializedVersion: 2
+        x: 665
+        y: 2261
+        width: 206
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ed33507c688fcb930800000000000000
+      internalID: 4160473413531808734
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_8
+      rect:
+        serializedVersion: 2
+        x: 1177
+        y: 2261
+        width: 207
+        height: 99
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5fe28b98bad1f9a0800000000000000
+      internalID: -6200934725494575266
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_9
+      rect:
+        serializedVersion: 2
+        x: 1690
+        y: 2260
+        width: 204
+        height: 100
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 01f90ccd9c8a7f0f0800000000000000
+      internalID: -1083211600413810928
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_10
+      rect:
+        serializedVersion: 2
+        x: 2206
+        y: 2258
+        width: 198
+        height: 104
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0b1a10f56d06c7430800000000000000
+      internalID: 3782004260917584304
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_11
+      rect:
+        serializedVersion: 2
+        x: 2719
+        y: 2254
+        width: 195
+        height: 109
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 02eeb5efe869ad540800000000000000
+      internalID: 5033501074436910624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_12
+      rect:
+        serializedVersion: 2
+        x: 163
+        y: 1738
+        width: 186
+        height: 115
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 22ba0a75e3d7bee70800000000000000
+      internalID: 9145541175017515810
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_13
+      rect:
+        serializedVersion: 2
+        x: 679
+        y: 1733
+        width: 178
+        height: 120
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d3253885c0c437ed0800000000000000
+      internalID: -2417504959059504579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_14
+      rect:
+        serializedVersion: 2
+        x: 1195
+        y: 1729
+        width: 171
+        height: 127
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 53fe5e63ff3bde870800000000000000
+      internalID: 8713818762750848821
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_15
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 1724
+        width: 162
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 21c019411fe89cca0800000000000000
+      internalID: -5996104262783792110
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_16
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 1720
+        width: 154
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3e445abbe3c8b9a90800000000000000
+      internalID: -7306091769414466333
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_17
+      rect:
+        serializedVersion: 2
+        x: 2743
+        y: 1714
+        width: 147
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6915c3993267efd60800000000000000
+      internalID: 7925902289485451670
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_18
+      rect:
+        serializedVersion: 2
+        x: 187
+        y: 1198
+        width: 138
+        height: 153
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4d8c9384563e47b20800000000000000
+      internalID: 3131377665072285908
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_19
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 1196
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ee4c9ad43bb38ab30800000000000000
+      internalID: 4298751485613294830
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_20
+      rect:
+        serializedVersion: 2
+        x: 1216
+        y: 1193
+        width: 129
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ad520e9b09570f00800000000000000
+      internalID: 1082932141836361121
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_21
+      rect:
+        serializedVersion: 2
+        x: 1729
+        y: 1192
+        width: 126
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8dc8d2093c4168d00800000000000000
+      internalID: 974489199542373592
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_22
+      rect:
+        serializedVersion: 2
+        x: 2242
+        y: 1192
+        width: 124
+        height: 162
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: abb47ef22c6ed82e0800000000000000
+      internalID: -2121786127719904326
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_23
+      rect:
+        serializedVersion: 2
+        x: 2753
+        y: 1192
+        width: 126
+        height: 160
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 624ad99e879a33ed0800000000000000
+      internalID: -2435416636696714202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_24
+      rect:
+        serializedVersion: 2
+        x: 191
+        y: 682
+        width: 129
+        height: 159
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9b9898f2783251530800000000000000
+      internalID: 3825002522046204345
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_25
+      rect:
+        serializedVersion: 2
+        x: 701
+        y: 683
+        width: 134
+        height: 156
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5338d6eaf54f72390800000000000000
+      internalID: -7843031534256946379
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_26
+      rect:
+        serializedVersion: 2
+        x: 1211
+        y: 686
+        width: 138
+        height: 152
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: cf3be6055025896b0800000000000000
+      internalID: -5289387579568901124
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_27
+      rect:
+        serializedVersion: 2
+        x: 1311
+        y: 835
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2e751a3e400e4c4e0800000000000000
+      internalID: -1962197226023200798
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_28
+      rect:
+        serializedVersion: 2
+        x: 1720
+        y: 691
+        width: 145
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 44cb5b471bbd11c10800000000000000
+      internalID: 2022639262879824964
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_29
+      rect:
+        serializedVersion: 2
+        x: 2227
+        y: 695
+        width: 154
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9151c010fc7c63d30800000000000000
+      internalID: 4410932576945706265
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Fire_Invader1_30
+      rect:
+        serializedVersion: 2
+        x: 2735
+        y: 700
+        width: 162
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3fe50312536432ab0800000000000000
+      internalID: -5034102764466053389
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

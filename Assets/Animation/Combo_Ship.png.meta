@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: 32b42c044b7b566458e181633f386b59
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 975236890736014732
+    second: Combo_Ship_0
+  - first:
+      213: 2069630317686384615
+    second: Combo_Ship_1
+  - first:
+      213: 2585457150532463047
+    second: Combo_Ship_2
+  - first:
+      213: -5488852923638667900
+    second: Combo_Ship_3
+  - first:
+      213: -6767709490655980395
+    second: Combo_Ship_4
+  - first:
+      213: 940129749806066066
+    second: Combo_Ship_5
+  - first:
+      213: -6030279332734133023
+    second: Combo_Ship_6
+  - first:
+      213: -8728336493225563747
+    second: Combo_Ship_7
+  - first:
+      213: 4443692215195238489
+    second: Combo_Ship_8
+  - first:
+      213: -4227134335555352432
+    second: Combo_Ship_9
+  - first:
+      213: 5892094741310351131
+    second: Combo_Ship_10
+  - first:
+      213: 7167811629369305109
+    second: Combo_Ship_11
+  - first:
+      213: 4307836147811851986
+    second: Combo_Ship_12
+  - first:
+      213: -6832804279908553537
+    second: Combo_Ship_13
+  - first:
+      213: 2603696247133565427
+    second: Combo_Ship_14
+  - first:
+      213: -7795618020762114429
+    second: Combo_Ship_15
+  - first:
+      213: 578279353984763454
+    second: Combo_Ship_16
+  - first:
+      213: 9008409779354701675
+    second: Combo_Ship_17
+  - first:
+      213: -4497410145540843425
+    second: Combo_Ship_18
+  - first:
+      213: 6854385951390948425
+    second: Combo_Ship_19
+  - first:
+      213: 7622915882570171717
+    second: Combo_Ship_20
+  - first:
+      213: 9025597426089880271
+    second: Combo_Ship_21
+  - first:
+      213: 1578047110670224532
+    second: Combo_Ship_22
+  - first:
+      213: 353183374628393730
+    second: Combo_Ship_23
+  - first:
+      213: -8138478443024687729
+    second: Combo_Ship_24
+  - first:
+      213: -2601791136024904580
+    second: Combo_Ship_25
+  - first:
+      213: 9000081480890291863
+    second: Combo_Ship_26
+  - first:
+      213: -6818724040574262188
+    second: Combo_Ship_27
+  - first:
+      213: 8355752723074635472
+    second: Combo_Ship_28
+  - first:
+      213: 3129627280914172968
+    second: Combo_Ship_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Combo_Ship_0
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2695
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c853d2cf8ccb88d00800000000000000
+      internalID: 975236890736014732
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_1
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2695
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7e7631efecdc8bc10800000000000000
+      internalID: 2069630317686384615
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_2
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2695
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7c92b7f749361e320800000000000000
+      internalID: 2585457150532463047
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_3
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2695
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 485272ed85da3d3b0800000000000000
+      internalID: -5488852923638667900
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_4
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2695
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 594196a33144412a0800000000000000
+      internalID: -6767709490655980395
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_5
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2695
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 299a7f3c6030c0d00800000000000000
+      internalID: 940129749806066066
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_6
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 2183
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ec900c85e4205ca0800000000000000
+      internalID: -6030279332734133023
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_7
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 2183
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9926314438bed680800000000000000
+      internalID: -8728336493225563747
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_8
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 2183
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 95081e9a68a2bad30800000000000000
+      internalID: 4443692215195238489
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_9
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 2183
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 098cd57d7b33655c0800000000000000
+      internalID: -4227134335555352432
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_10
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 2183
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b1720c613fce4c150800000000000000
+      internalID: 5892094741310351131
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_11
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 2183
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 518a87143be297360800000000000000
+      internalID: 7167811629369305109
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_12
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2de99ec072288cb30800000000000000
+      internalID: 4307836147811851986
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_13
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fbc284c85b00d21a0800000000000000
+      internalID: -6832804279908553537
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_14
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3f1f96911ff222420800000000000000
+      internalID: 2603696247133565427
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_15
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38627db86b660d390800000000000000
+      internalID: -7795618020762114429
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_16
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e3644333206760800800000000000000
+      internalID: 578279353984763454
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_17
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1670
+        width: 132
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b6f879937fc440d70800000000000000
+      internalID: 9008409779354701675
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_18
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f58dcc90d4df591c0800000000000000
+      internalID: -4497410145540843425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_19
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94cd51ae4bbaf1f50800000000000000
+      internalID: 6854385951390948425
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_20
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 54547457b990ac960800000000000000
+      internalID: 7622915882570171717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_21
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fca64c31a0d514d70800000000000000
+      internalID: 9025597426089880271
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_22
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 49c845e7c7956e510800000000000000
+      internalID: 1578047110670224532
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_23
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 1159
+        width: 132
+        height: 241
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2039c417862c6e400800000000000000
+      internalID: 353183374628393730
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_24
+      rect:
+        serializedVersion: 2
+        x: 190
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f8dd65fb9f05e0f80800000000000000
+      internalID: -8138478443024687729
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_25
+      rect:
+        serializedVersion: 2
+        x: 703
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c7cb9752fb494ebd0800000000000000
+      internalID: -2601791136024904580
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_26
+      rect:
+        serializedVersion: 2
+        x: 1214
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 79699022c66b6ec70800000000000000
+      internalID: 9000081480890291863
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_27
+      rect:
+        serializedVersion: 2
+        x: 1726
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454a72cbc960f51a0800000000000000
+      internalID: -6818724040574262188
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_28
+      rect:
+        serializedVersion: 2
+        x: 2239
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0d6ddd9b4d895f370800000000000000
+      internalID: 8355752723074635472
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Combo_Ship_29
+      rect:
+        serializedVersion: 2
+        x: 2750
+        y: 647
+        width: 132
+        height: 240
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 82cc2463e6bae6b20800000000000000
+      internalID: 3129627280914172968
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

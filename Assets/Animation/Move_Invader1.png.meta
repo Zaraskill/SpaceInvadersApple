@@ -1,0 +1,968 @@
+fileFormatVersion: 2
+guid: 6bd5f049c78c69349808c6a14f07e7c9
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -5161240121350136946
+    second: Move_Invader1_0
+  - first:
+      213: -4446569844693441282
+    second: Move_Invader1_1
+  - first:
+      213: -8202605233565136581
+    second: Move_Invader1_2
+  - first:
+      213: 1935376842485632950
+    second: Move_Invader1_3
+  - first:
+      213: -5741229078618746786
+    second: Move_Invader1_4
+  - first:
+      213: 5798204889175470400
+    second: Move_Invader1_5
+  - first:
+      213: 6119313272088205371
+    second: Move_Invader1_6
+  - first:
+      213: 6346732131329533012
+    second: Move_Invader1_7
+  - first:
+      213: -3917591096620905655
+    second: Move_Invader1_8
+  - first:
+      213: -3769422054066944232
+    second: Move_Invader1_9
+  - first:
+      213: 5233275376167025187
+    second: Move_Invader1_10
+  - first:
+      213: -1876839573901954914
+    second: Move_Invader1_11
+  - first:
+      213: -2548592373936912165
+    second: Move_Invader1_12
+  - first:
+      213: -6215417484457774069
+    second: Move_Invader1_13
+  - first:
+      213: -6927910700835058491
+    second: Move_Invader1_14
+  - first:
+      213: -3350537961924824176
+    second: Move_Invader1_15
+  - first:
+      213: -4161508340934908026
+    second: Move_Invader1_16
+  - first:
+      213: -6780262396836375336
+    second: Move_Invader1_17
+  - first:
+      213: 3932547615482464584
+    second: Move_Invader1_18
+  - first:
+      213: 5052785743580916967
+    second: Move_Invader1_19
+  - first:
+      213: 3741510244682546183
+    second: Move_Invader1_20
+  - first:
+      213: -8209053424531061777
+    second: Move_Invader1_21
+  - first:
+      213: -2309213445974115480
+    second: Move_Invader1_22
+  - first:
+      213: 1290589847642164950
+    second: Move_Invader1_23
+  - first:
+      213: 8207704047914484056
+    second: Move_Invader1_24
+  - first:
+      213: -3829830165627366499
+    second: Move_Invader1_25
+  - first:
+      213: 7667227935529012907
+    second: Move_Invader1_26
+  - first:
+      213: -5311061782606633977
+    second: Move_Invader1_27
+  - first:
+      213: -3006488194355611261
+    second: Move_Invader1_28
+  - first:
+      213: 532718147124819959
+    second: Move_Invader1_29
+  - first:
+      213: -3890481219127276257
+    second: Move_Invader1_30
+  - first:
+      213: -6940512654537673146
+    second: Move_Invader1_31
+  - first:
+      213: -4004181051653812602
+    second: Move_Invader1_32
+  - first:
+      213: -5052230841473907717
+    second: Move_Invader1_33
+  - first:
+      213: -1458433048140413358
+    second: Move_Invader1_34
+  - first:
+      213: 5294508914280698897
+    second: Move_Invader1_35
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Move_Invader1_0
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2755
+        width: 172
+        height: 139
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e8b5e6e74779f58b0800000000000000
+      internalID: -5161240121350136946
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_1
+      rect:
+        serializedVersion: 2
+        x: 1823
+        y: 2893
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: ef46512094c9a42c0800000000000000
+      internalID: -4446569844693441282
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_2
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2752
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b390794dffd7a2e80800000000000000
+      internalID: -8202605233565136581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_3
+      rect:
+        serializedVersion: 2
+        x: 2844
+        y: 2893
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6bf8fd2fbf6dbda10800000000000000
+      internalID: 1935376842485632950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_4
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 2753
+        width: 171
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e5059c2429e0350b0800000000000000
+      internalID: -5741229078618746786
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_5
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 2885
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 041bc3260ac577050800000000000000
+      internalID: 5798204889175470400
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_6
+      rect:
+        serializedVersion: 2
+        x: 1709
+        y: 2753
+        width: 174
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b38962cdffa2ce450800000000000000
+      internalID: 6119313272088205371
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_7
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 2750
+        width: 177
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 454647c3f3f141850800000000000000
+      internalID: 6346732131329533012
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_8
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 2752
+        width: 168
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 94b8da667abe1a9c0800000000000000
+      internalID: -3917591096620905655
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_9
+      rect:
+        serializedVersion: 2
+        x: 175
+        y: 2234
+        width: 175
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 81701d2fc9250bbc0800000000000000
+      internalID: -3769422054066944232
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_10
+      rect:
+        serializedVersion: 2
+        x: 795
+        y: 2375
+        width: 4
+        height: 5
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 32afb304a3450a840800000000000000
+      internalID: 5233275376167025187
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_11
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 2230
+        width: 177
+        height: 148
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e90bd29f95024f5e0800000000000000
+      internalID: -1876839573901954914
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_12
+      rect:
+        serializedVersion: 2
+        x: 1711
+        y: 2230
+        width: 175
+        height: 147
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd8883a2db491acd0800000000000000
+      internalID: -2548592373936912165
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_13
+      rect:
+        serializedVersion: 2
+        x: 686
+        y: 2233
+        width: 177
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b0474248ab66eb9a0800000000000000
+      internalID: -6215417484457774069
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_14
+      rect:
+        serializedVersion: 2
+        x: 2222
+        y: 2230
+        width: 176
+        height: 145
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cc49195ced1bdf90800000000000000
+      internalID: -6927910700835058491
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_15
+      rect:
+        serializedVersion: 2
+        x: 2847
+        y: 2371
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 093720db97f7081d0800000000000000
+      internalID: -3350537961924824176
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_16
+      rect:
+        serializedVersion: 2
+        x: 2734
+        y: 2231
+        width: 174
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 687efb8663a5f36c0800000000000000
+      internalID: -4161508340934908026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_17
+      rect:
+        serializedVersion: 2
+        x: 173
+        y: 1721
+        width: 173
+        height: 140
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8d411a0064ba7e1a0800000000000000
+      internalID: -6780262396836375336
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_18
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 1724
+        width: 171
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 84944238837339630800000000000000
+      internalID: 3932547615482464584
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_19
+      rect:
+        serializedVersion: 2
+        x: 803
+        y: 1856
+        width: 4
+        height: 4
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7ec6c4cecd91f1640800000000000000
+      internalID: 5052785743580916967
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_20
+      rect:
+        serializedVersion: 2
+        x: 1198
+        y: 1726
+        width: 166
+        height: 133
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 70cb9c18eb38ce330800000000000000
+      internalID: 3741510244682546183
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_21
+      rect:
+        serializedVersion: 2
+        x: 1708
+        y: 1729
+        width: 166
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fe34f906765931e80800000000000000
+      internalID: -8209053424531061777
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_22
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 1730
+        width: 171
+        height: 134
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 86b382a0b9604ffd0800000000000000
+      internalID: -2309213445974115480
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_23
+      rect:
+        serializedVersion: 2
+        x: 2726
+        y: 1730
+        width: 173
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6decf6be0a819e110800000000000000
+      internalID: 1290589847642164950
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_24
+      rect:
+        serializedVersion: 2
+        x: 164
+        y: 1219
+        width: 174
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8518a75685f97e170800000000000000
+      internalID: 8207704047914484056
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_25
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 1216
+        width: 176
+        height: 142
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d9394b371c5b9dac0800000000000000
+      internalID: -3829830165627366499
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_26
+      rect:
+        serializedVersion: 2
+        x: 1186
+        y: 1214
+        width: 175
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bae88254f27776a60800000000000000
+      internalID: 7667227935529012907
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_27
+      rect:
+        serializedVersion: 2
+        x: 1696
+        y: 1211
+        width: 178
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 704249ba2715b46b0800000000000000
+      internalID: -5311061782606633977
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_28
+      rect:
+        serializedVersion: 2
+        x: 2209
+        y: 1208
+        width: 177
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 38937029aeec646d0800000000000000
+      internalID: -3006488194355611261
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_29
+      rect:
+        serializedVersion: 2
+        x: 2720
+        y: 1207
+        width: 177
+        height: 144
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f777c41558946700800000000000000
+      internalID: 532718147124819959
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_30
+      rect:
+        serializedVersion: 2
+        x: 161
+        y: 695
+        width: 177
+        height: 143
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1d0790a1fb320ac0800000000000000
+      internalID: -3890481219127276257
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_31
+      rect:
+        serializedVersion: 2
+        x: 674
+        y: 695
+        width: 176
+        height: 141
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 646bd2b53885eaf90800000000000000
+      internalID: -6940512654537673146
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_32
+      rect:
+        serializedVersion: 2
+        x: 1189
+        y: 697
+        width: 174
+        height: 138
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 68e03df6c8a4e68c0800000000000000
+      internalID: -4004181051653812602
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_33
+      rect:
+        serializedVersion: 2
+        x: 1702
+        y: 698
+        width: 172
+        height: 137
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bf3ccaa41ded2e9b0800000000000000
+      internalID: -5052230841473907717
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_34
+      rect:
+        serializedVersion: 2
+        x: 2216
+        y: 700
+        width: 171
+        height: 135
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 25686ecaeda92cbe0800000000000000
+      internalID: -1458433048140413358
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Move_Invader1_35
+      rect:
+        serializedVersion: 2
+        x: 2731
+        y: 703
+        width: 168
+        height: 132
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 11417d75ecfd97940800000000000000
+      internalID: 5294508914280698897
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

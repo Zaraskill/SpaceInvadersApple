@@ -65,7 +65,7 @@ public class ShipController : MonoBehaviour
     {
         GameObject missile = Instantiate(projectile);
         shoot = missile;
-        missile.transform.position = transform.position + Vector3.up;
+        missile.transform.position = transform.position + Vector3.up * 2;
         OnShoot?.Invoke();
     }
 

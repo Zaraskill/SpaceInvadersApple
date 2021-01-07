@@ -1,0 +1,824 @@
+fileFormatVersion: 2
+guid: d22f11449c9c8994ab4077c97d38d25f
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: 9129447799766937579
+    second: Death_Invaders3_0
+  - first:
+      213: -334030716413104808
+    second: Death_Invaders3_1
+  - first:
+      213: 4393507341706309043
+    second: Death_Invaders3_2
+  - first:
+      213: 5026037962166535978
+    second: Death_Invaders3_3
+  - first:
+      213: 1889152595317776582
+    second: Death_Invaders3_4
+  - first:
+      213: -8061298533416313372
+    second: Death_Invaders3_5
+  - first:
+      213: -2507878582432641283
+    second: Death_Invaders3_6
+  - first:
+      213: -3462273891965268624
+    second: Death_Invaders3_7
+  - first:
+      213: 4273272158800309961
+    second: Death_Invaders3_8
+  - first:
+      213: 8664728855308527581
+    second: Death_Invaders3_9
+  - first:
+      213: -3184504714478511927
+    second: Death_Invaders3_10
+  - first:
+      213: 6420349977604466898
+    second: Death_Invaders3_11
+  - first:
+      213: 7729957246195659166
+    second: Death_Invaders3_12
+  - first:
+      213: -1471113255922253883
+    second: Death_Invaders3_13
+  - first:
+      213: 3739622196353308161
+    second: Death_Invaders3_14
+  - first:
+      213: 7963729050753444791
+    second: Death_Invaders3_15
+  - first:
+      213: 5083777357679337714
+    second: Death_Invaders3_16
+  - first:
+      213: 7641039023827645788
+    second: Death_Invaders3_17
+  - first:
+      213: 6724294053905748350
+    second: Death_Invaders3_18
+  - first:
+      213: -1617876667962791567
+    second: Death_Invaders3_19
+  - first:
+      213: 3143299166006153556
+    second: Death_Invaders3_20
+  - first:
+      213: -5825706629759641283
+    second: Death_Invaders3_21
+  - first:
+      213: -4423670549869292656
+    second: Death_Invaders3_22
+  - first:
+      213: -8615781708690093019
+    second: Death_Invaders3_23
+  - first:
+      213: 3125782397743864635
+    second: Death_Invaders3_24
+  - first:
+      213: -5042659772865872611
+    second: Death_Invaders3_25
+  - first:
+      213: -2148869220743865169
+    second: Death_Invaders3_26
+  - first:
+      213: -606260869564392172
+    second: Death_Invaders3_27
+  - first:
+      213: -2111727425512256576
+    second: Death_Invaders3_28
+  - first:
+      213: -2943093867205758026
+    second: Death_Invaders3_29
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: 1
+    wrapV: 1
+    wrapW: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Death_Invaders3_0
+      rect:
+        serializedVersion: 2
+        x: 106
+        y: 2696
+        width: 270
+        height: 242
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bef649c676052be70800000000000000
+      internalID: 9129447799766937579
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_1
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2708
+        width: 284
+        height: 212
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 85da02c45d84d5bf0800000000000000
+      internalID: -334030716413104808
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_2
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2726
+        width: 288
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 3bda97446afd8fc30800000000000000
+      internalID: 4393507341706309043
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_3
+      rect:
+        serializedVersion: 2
+        x: 1655
+        y: 2710
+        width: 284
+        height: 208
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a278092c5e210c540800000000000000
+      internalID: 5026037962166535978
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_4
+      rect:
+        serializedVersion: 2
+        x: 2176
+        y: 2702
+        width: 277
+        height: 224
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6c06c6ab64e973a10800000000000000
+      internalID: 1889152595317776582
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_5
+      rect:
+        serializedVersion: 2
+        x: 2675
+        y: 2716
+        width: 285
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4edd757c1b3802090800000000000000
+      internalID: -8061298533416313372
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_6
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 2206
+        width: 286
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dfeca4277b9323dd0800000000000000
+      internalID: -2507878582432641283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_7
+      rect:
+        serializedVersion: 2
+        x: 620
+        y: 2195
+        width: 282
+        height: 213
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 07d0d4a3d3883ffc0800000000000000
+      internalID: -3462273891965268624
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_8
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 2212
+        width: 287
+        height: 184
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9ceebdd3366bd4b30800000000000000
+      internalID: 4273272158800309961
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_9
+      rect:
+        serializedVersion: 2
+        x: 1654
+        y: 2200
+        width: 283
+        height: 205
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: dd7edb77cfc4f3870800000000000000
+      internalID: 8664728855308527581
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_10
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 2207
+        width: 287
+        height: 191
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 9c893fb95dd5ec3d0800000000000000
+      internalID: -3184504714478511927
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_11
+      rect:
+        serializedVersion: 2
+        x: 2671
+        y: 2204
+        width: 285
+        height: 198
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2d82dc4c94aa91950800000000000000
+      internalID: 6420349977604466898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_12
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1700
+        width: 286
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e91f27c0923564b60800000000000000
+      internalID: 7729957246195659166
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_13
+      rect:
+        serializedVersion: 2
+        x: 626
+        y: 1694
+        width: 287
+        height: 194
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5cfb26cb94e859be0800000000000000
+      internalID: -1471113255922253883
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_14
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1696
+        width: 285
+        height: 190
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1061ecff29ec5e330800000000000000
+      internalID: 3739622196353308161
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_15
+      rect:
+        serializedVersion: 2
+        x: 1649
+        y: 1697
+        width: 288
+        height: 189
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7bb2e95c069d48e60800000000000000
+      internalID: 7963729050753444791
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_16
+      rect:
+        serializedVersion: 2
+        x: 2162
+        y: 1700
+        width: 287
+        height: 183
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f0a6a162943d8640800000000000000
+      internalID: 5083777357679337714
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_17
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1700
+        width: 288
+        height: 182
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c55f42a128c6a0a60800000000000000
+      internalID: 7641039023827645788
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_18
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 1190
+        width: 288
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e71d250b0dd715d50800000000000000
+      internalID: 6724294053905748350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_19
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 1190
+        width: 286
+        height: 180
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1796fab0eb52c89e0800000000000000
+      internalID: -1617876667962791567
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_20
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 1190
+        width: 288
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 451149400fd3f9b20800000000000000
+      internalID: 3143299166006153556
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_21
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 1190
+        width: 288
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d39d987afaee62fa0800000000000000
+      internalID: -5825706629759641283
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_22
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 1190
+        width: 286
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0931faf8217fb92c0800000000000000
+      internalID: -4423670549869292656
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_23
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 1190
+        width: 288
+        height: 179
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 52c083f2f289e6880800000000000000
+      internalID: -8615781708690093019
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_24
+      rect:
+        serializedVersion: 2
+        x: 112
+        y: 679
+        width: 288
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: b3b11b69782016b20800000000000000
+      internalID: 3125782397743864635
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_25
+      rect:
+        serializedVersion: 2
+        x: 625
+        y: 679
+        width: 286
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d1d7d2b57afd40ab0800000000000000
+      internalID: -5042659772865872611
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_26
+      rect:
+        serializedVersion: 2
+        x: 1136
+        y: 679
+        width: 288
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: fac9ac434dead22e0800000000000000
+      internalID: -2148869220743865169
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_27
+      rect:
+        serializedVersion: 2
+        x: 1648
+        y: 679
+        width: 288
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 41d156483f02697f0800000000000000
+      internalID: -606260869564392172
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_28
+      rect:
+        serializedVersion: 2
+        x: 2161
+        y: 679
+        width: 286
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0cb44eb4813a1b2e0800000000000000
+      internalID: -2111727425512256576
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Death_Invaders3_29
+      rect:
+        serializedVersion: 2
+        x: 2672
+        y: 679
+        width: 288
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 6b3f19098b70827d0800000000000000
+      internalID: -2943093867205758026
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5e97eb03825dee720800000000000000
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
