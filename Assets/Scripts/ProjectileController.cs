@@ -38,7 +38,7 @@ public class ProjectileController : MonoBehaviour
             Instantiate(particleExplosion, collision.gameObject.transform.position, Quaternion.identity);
             if (collision.gameObject.GetComponent<Invader>())
             {
-                AudioManager.instance.PlayPlayerDeath();
+                AudioManager.instance.PlayEnemyDeath();
                 UIManager.instance.BloodStain(collision.gameObject.transform.position);
                 collision.gameObject.GetComponent<Invader>().Explode();
             }
