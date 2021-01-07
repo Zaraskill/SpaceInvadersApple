@@ -560,6 +560,64 @@ RectTransform:
   m_AnchoredPosition: {x: -170, y: 50}
   m_SizeDelta: {x: 100, y: 100}
   m_Pivot: {x: 0.5, y: 0.5}
+--- !u!1 &1320236984
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1320236986}
+  - component: {fileID: 1320236985}
+  m_Layer: 0
+  m_Name: AudioManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!114 &1320236985
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320236984}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: ff115cbab64481949943804d41caaf42, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  music: {fileID: 0}
+  playerMovement: {fileID: 0}
+  playerShot: {fileID: 0}
+  playerSpawn: {fileID: 0}
+  playerDeath: {fileID: 0}
+  playerTrashTalk: {fileID: 0}
+  enemyMovement: {fileID: 0}
+  enemyShot: {fileID: 0}
+  enemyDeath: {fileID: 0}
+  pointWin: {fileID: 0}
+  enemyChange: {fileID: 0}
+  enemyTrashtalk:
+  - {fileID: 8300000, guid: ff75370ebfa0a3740a1a41cdde74d2c5, type: 3}
+  - {fileID: 8300000, guid: 3e562b841af74c5438aff209dff25ef7, type: 3}
+  - {fileID: 8300000, guid: 7d03305a5a53ac4419cbc8c63656cf42, type: 3}
+--- !u!4 &1320236986
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1320236984}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 1.5247626, y: 1.5039083, z: -1.1796875}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 6
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1452602582
 GameObject:
   m_ObjectHideFlags: 0
@@ -595,6 +653,8 @@ MonoBehaviour:
   lifeOne: {fileID: 1989196994}
   lifeTwo: {fileID: 1108944640}
   lifeThree: {fileID: 194751306}
+  ScoreText: {fileID: 473881635}
+  ScoreValue: 0
 --- !u!114 &1452602584
 MonoBehaviour:
   m_ObjectHideFlags: 0
