@@ -19,6 +19,13 @@ public class UIManager : MonoBehaviour
     public TMP_Text ScoreText;
     public int ScoreValue;
 
+    [SerializeField] private AnimationCurve ScaleCurve;
+    private bool isScaling = false;
+    public float ScaleTimer = 0.5f;
+    private float elapsedTime = 0f;
+
+    private Vector3 baseScale;
+
     private void Awake()
     {
         if(instance == null)
@@ -37,12 +44,25 @@ public class UIManager : MonoBehaviour
         lifeOne.gameObject.SetActive(true);
         lifeTwo.gameObject.SetActive(true);
         lifeThree.gameObject.SetActive(true);
+
+        baseScale = ScoreText.transform.localScale;
     }
 
     // Update is called once per frame
     void Update()
     {
-        
+        if (isScaling)
+        {
+            elapsedTime += Time.deltaTime;
+
+            ScoreText.transform.localScale = new Vector3 (ScaleCurve.Evaluate(elapsedTime), ScaleCurve.Evaluate(elapsedTime), 1);
+
+            if(elapsedTime >= ScaleTimer)
+            {
+                elapsedTime = 0;
+                isScaling = false;
+            }
+        }
     }
 
     public void UpdateLifes(int life)
@@ -63,7 +83,9 @@ public class UIManager : MonoBehaviour
 
     public void UpdateScore()
     {
-        ScoreText.text = "Score : " + ScoreValue; 
+        ScoreText.text = "Score : " + ScoreValue;
+        ScoreText.transform.localScale = baseScale;
+        isScaling = true;
     }
 
     public void BloodStain(Vector3 position, GameObject blood)
