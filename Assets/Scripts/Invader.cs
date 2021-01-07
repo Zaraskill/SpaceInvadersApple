@@ -14,7 +14,8 @@ public class Invader : MonoBehaviour
     private Animator _animator;
 
     public bool hitSide = false;
-
+    public GameObject particleExplosion;
+    public GameObject blood;
     public int scorePoints = 100;
 
     // Start is called before the first frame update
@@ -96,6 +97,8 @@ public class Invader : MonoBehaviour
     IEnumerator Death()
     {
         yield return new WaitForSeconds(0.67f);
+        Instantiate(particleExplosion, transform.position, Quaternion.identity);
+        UIManager.instance.BloodStain(transform.position, blood);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
         InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
         Instantiate(ScoreUi, transform.position, Quaternion.identity);
@@ -104,22 +107,22 @@ public class Invader : MonoBehaviour
         if (list.Count == 1)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.8f;
-            AudioManager.instance.IncreasePitch(1.25f);
+            AudioManager.instance.IncreasePitch(1.1f);
         }
         else if (list.Count <= 5)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.6f;
-            AudioManager.instance.IncreasePitch(1.1975f);
+            AudioManager.instance.IncreasePitch(1.075f);
         }
         else if (list.Count <= 10)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.3f;
-            AudioManager.instance.IncreasePitch(1.125f);
+            AudioManager.instance.IncreasePitch(1.05f);
         }
         else if (list.Count <= 15)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.2f;
-            AudioManager.instance.IncreasePitch(1.0625f);
+            AudioManager.instance.IncreasePitch(1.025f);
         }
         Destroy(gameObject);
     }

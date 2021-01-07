@@ -12,7 +12,7 @@ public class UIManager : MonoBehaviour
     public Image lifeOne;
     public Image lifeTwo;
     public Image lifeThree;
-    public GameObject blood;
+    
 
     public TMP_Text ScoreText;
     public int ScoreValue;
@@ -86,7 +86,7 @@ public class UIManager : MonoBehaviour
         isScaling = true;
     }
 
-    public void BloodStain(Vector3 position)
+    public void BloodStain(Vector3 position, GameObject blood)
     {
         GameObject image = Instantiate(blood, this.GetComponent<RectTransform>());
         RectTransform transformRect = image.GetComponent<RectTransform>();
