@@ -30,7 +30,7 @@ public class ProjectileController : MonoBehaviour
         if (collision.gameObject.CompareTag("Wall"))
         {
             AudioManager.instance.PlayEnemyTrash();
-            UIManager.instance.TrashtalkPlayer();
+            Combo.instance.UpdateCombo(-1);
             Destroy(gameObject);
         }
 
@@ -44,6 +44,7 @@ public class ProjectileController : MonoBehaviour
             Destroy(gameObject);
             if (collision.gameObject.GetComponent<Invader>())
             {
+                Combo.instance.UpdateCombo(1);
                 AudioManager.instance.PlayEnemyDeath();
                 CameraShaker.Instance.ShakeOnce(magnitude, roughness, fadeInTime, fadeOutTime);
                 collision.gameObject.GetComponent<Invader>().Explode();

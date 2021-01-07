@@ -15,6 +15,7 @@ public class UIManager : MonoBehaviour
 
     public TMP_Text trashText;
     public List<string> trashtalkSentences;
+    public List<string> positivesSentences;
 
     public TMP_Text ScoreText;
     public int ScoreValue;
@@ -99,10 +100,17 @@ public class UIManager : MonoBehaviour
         transformRect.Rotate(new Vector3(0, 0, rotation));
     }
 
-    public void TrashtalkPlayer()
+    public void TrashtalkPlayer(int side)
     {
         StopCoroutine(Sentence());
-        trashText.text = trashtalkSentences[Random.Range(0, trashtalkSentences.Count)];
+        if(side > 0)
+        {
+            trashText.text = positivesSentences[Random.Range(0, positivesSentences.Count)];
+        }
+        else
+        {
+            trashText.text = trashtalkSentences[Random.Range(0, trashtalkSentences.Count)];
+        }        
         StartCoroutine(Sentence());
     }
 

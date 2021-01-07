@@ -22,6 +22,10 @@ public class AudioManager : MonoBehaviour
     public AudioClip enemyChange;
     public List<AudioClip> enemyTrashtalk;
 
+    [Header("Voices reactions")]
+    public List<AudioClip> positivesFeedback;
+    public List<AudioClip> negativesFeedback;
+
     private float pitchMin = 1f;
     private float pitchMax = 1f;
     private float timeLerp = 0f;
@@ -124,5 +128,17 @@ public class AudioManager : MonoBehaviour
         pitchMin = pitchMax;
         pitchMax = pitchToGo;
         timeLerp = 0f;
+    }
+
+    public void PlayPositiveFeedbacks()
+    {
+        int random = Random.Range(0, positivesFeedback.Count);
+        Play(positivesFeedback[random]);
+    }
+
+    public void PlayNegativeFeedbacks()
+    {
+        int random = Random.Range(0, negativesFeedback.Count);
+        Play(negativesFeedback[random]);
     }
 }

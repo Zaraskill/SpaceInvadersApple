@@ -15,6 +15,7 @@ public class ShipController : MonoBehaviour
     public int life = 3;
     public float speed;
     public GameObject projectile;
+    public Transform positionEmoji;
 
     public static Action OnShoot;
 
@@ -90,6 +91,7 @@ public class ShipController : MonoBehaviour
             }
             else
             {
+                Combo.instance.UpdateCombo(-1);
                 StartCoroutine(WaitingForRespawn());
                 AudioManager.instance.PlayEnemyTrash();
                 AudioManager.instance.PlayPlayerDeath();
@@ -102,6 +104,11 @@ public class ShipController : MonoBehaviour
             _animator.SetBool("die", true);
             StartCoroutine(GameOver());
         }
+    }
+
+    public void FeedbackEmoji(GameObject Emoji)
+    {
+        Instantiate(Emoji, positionEmoji);
     }
 
     IEnumerator WaitingForRespawn()
