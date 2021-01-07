@@ -57,6 +57,8 @@ public class InvaderManager : MonoBehaviour
     {
         if(Invader.list.Count <= 0)
         {
+            UIManager.instance.gameObject.SetActive(false);
+            WinScreen.instance.gameObject.SetActive(true);
             return;
         }
 
