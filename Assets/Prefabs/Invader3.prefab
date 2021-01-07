@@ -103,7 +103,8 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   hitSide: 0
-  particleExplosion: {fileID: 569355939499210236, guid: c1f0729935cf92945a82babd736aea0c,
+  particleExplosion: {fileID: 135106, guid: f563a43ef6da8ce43b59040b834b597d, type: 3}
+  tentacleExplosion: {fileID: 569355939499210236, guid: c1f0729935cf92945a82babd736aea0c,
     type: 3}
   blood: {fileID: 9050514142239686724, guid: 4f39a54ff67fdd644994a7037e4c82ec, type: 3}
   scorePoints: 100
