@@ -5,6 +5,7 @@ using UnityEngine;
 public class ProjectileController : MonoBehaviour
 {
     public float speed = 50;
+    public GameObject particleExplosion;
 
     // Start is called before the first frame update
     void Start()
@@ -34,6 +35,7 @@ public class ProjectileController : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
+            Instantiate(particleExplosion, collision.gameObject.transform.position, Quaternion.identity);
             if (collision.gameObject.GetComponent<Invader>())
             {
                 collision.gameObject.GetComponent<Invader>().Explode();
