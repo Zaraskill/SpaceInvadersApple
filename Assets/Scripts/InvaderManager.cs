@@ -57,8 +57,7 @@ public class InvaderManager : MonoBehaviour
     {
         if(Invader.list.Count <= 0)
         {
-            UIManager.instance.gameObject.SetActive(false);
-            WinScreen.instance.gameObject.SetActive(true);
+            StartCoroutine(GameWin());
             return;
         }
 
@@ -91,5 +90,13 @@ public class InvaderManager : MonoBehaviour
             Invader.list[invaderSelected].Shoot();
             elapsedTimeShoot = 0;
         }
+    }
+
+    private IEnumerator GameWin()
+    {
+        float wait = 1f;
+        yield return new WaitForSecondsRealtime(wait);
+        UIManager.instance.gameObject.SetActive(false);
+        WinScreen.instance.gameObject.SetActive(true);
     }
 }
