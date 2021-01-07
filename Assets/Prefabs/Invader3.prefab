@@ -103,6 +103,9 @@ MonoBehaviour:
     serializedVersion: 2
     m_Bits: 256
   hitSide: 0
+  particleExplosion: {fileID: 569355939499210236, guid: c1f0729935cf92945a82babd736aea0c,
+    type: 3}
+  blood: {fileID: 9050514142239686724, guid: 4f39a54ff67fdd644994a7037e4c82ec, type: 3}
   scorePoints: 100
 --- !u!61 &2946196375519792539
 BoxCollider2D:

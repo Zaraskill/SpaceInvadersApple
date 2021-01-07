@@ -6,7 +6,6 @@ using EZCameraShake;
 public class ProjectileController : MonoBehaviour
 {
     public float speed = 50;
-    public GameObject particleExplosion;
 
     [Header("Camera Shaker")]
     public float magnitude;
@@ -42,12 +41,10 @@ public class ProjectileController : MonoBehaviour
         if (collision.gameObject.CompareTag("Enemy"))
         {
             Destroy(gameObject);
-            Instantiate(particleExplosion, collision.gameObject.transform.position, Quaternion.identity);
             if (collision.gameObject.GetComponent<Invader>())
             {
                 AudioManager.instance.PlayEnemyDeath();
                 CameraShaker.Instance.ShakeOnce(magnitude, roughness, fadeInTime, fadeOutTime);
-                UIManager.instance.BloodStain(collision.gameObject.transform.position);
                 collision.gameObject.GetComponent<Invader>().Explode();
             }
         }

@@ -50,9 +50,7 @@ public class AudioManager : MonoBehaviour
         {
             timeLerp += Time.deltaTime *0.5f;
             musicSource.pitch = Mathf.Lerp(pitchMin, pitchMax, timeLerp);
-            Debug.Log(musicSource.pitch);
-        }
-        
+        }        
     }
 
     private void Play(AudioClip originalClip)
