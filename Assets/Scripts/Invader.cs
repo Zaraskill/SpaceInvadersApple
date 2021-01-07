@@ -65,22 +65,22 @@ public class Invader : MonoBehaviour
         if (list.Count == 1)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.8f;
-            AudioManager.instance.IncreasePitch(2f);
+            AudioManager.instance.IncreasePitch(1.25f);
         }
         else if (list.Count <= 5)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.6f;
-            AudioManager.instance.IncreasePitch(1.75f);
+            AudioManager.instance.IncreasePitch(1.1975f);
         }
         else if (list.Count <= 10)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.3f;
-            AudioManager.instance.IncreasePitch(1.5f);
+            AudioManager.instance.IncreasePitch(1.125f);
         }
         else if (list.Count <= 15)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.2f;
-            AudioManager.instance.IncreasePitch(1.25f);
+            AudioManager.instance.IncreasePitch(1.0625f);
         }
         Destroy(gameObject);
     }
