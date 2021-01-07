@@ -50,6 +50,7 @@ public class ShipController : MonoBehaviour
         }
         if (Input.GetKeyDown(KeyCode.Space) && canShoot)
         {
+            AudioManager.instance.PlayPlayerShot();
             canShoot = false;
             Shoot();
         }
@@ -83,6 +84,7 @@ public class ShipController : MonoBehaviour
             else
             {
                 AudioManager.instance.PlayEnemyTrash();
+                AudioManager.instance.PlayPlayerDeath();
             }
         }
     }
