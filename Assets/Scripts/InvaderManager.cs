@@ -49,6 +49,11 @@ public class InvaderManager : MonoBehaviour
         {
             if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
             else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;
+            Invader[] invaders = FindObjectsOfType<Invader>();
+            foreach (Invader invader in invaders)
+            {
+                invader.DodgeShoot();
+            }
         }
     }
 
