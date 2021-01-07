@@ -15,6 +15,7 @@ public class Invader : MonoBehaviour
 
     public bool hitSide = false;
     public GameObject particleExplosion;
+    public GameObject tentacleExplosion;
     public GameObject blood;
     public int scorePoints = 100;
 
@@ -96,8 +97,9 @@ public class Invader : MonoBehaviour
 
     IEnumerator Death()
     {
-        yield return new WaitForSeconds(0.67f);
+        yield return new WaitForSeconds(0.3f);
         Instantiate(particleExplosion, transform.position, Quaternion.identity);
+        Instantiate(tentacleExplosion, transform.position, Quaternion.identity);
         UIManager.instance.BloodStain(transform.position, blood);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
         InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
