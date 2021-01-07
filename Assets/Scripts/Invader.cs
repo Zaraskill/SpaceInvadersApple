@@ -24,7 +24,9 @@ public class Invader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (transform.position.x > 9 || transform.position.x < -9) hitSide = true;
+
+        else hitSide = false;
     }
     public bool CheckForward()
     {
@@ -47,7 +49,7 @@ public class Invader : MonoBehaviour
     public void Shoot()
     {
         //if (CheckForward()) return;
-        AudioManager.instance.PlayEnemyShot();
+
         Instantiate(projectile, transform.position + Vector3.down, Quaternion.identity);
     }
 
@@ -84,9 +86,6 @@ public class Invader : MonoBehaviour
 
     private void OnCollisionEnter2D(Collision2D collision)
     {
-        if (collision.gameObject.CompareTag("Sides"))
-        {
-            hitSide = true;
-        }
+        
     }
 }

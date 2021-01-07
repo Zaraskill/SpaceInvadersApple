@@ -76,15 +76,6 @@ public class InvaderManager : MonoBehaviour
                     if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
                     else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;
                 }
-
-                if(Invader.list[i].transform.position.x >= 9)
-                {
-                    transform.position -= Vector3.left * 2;
-                }
-                else if (Invader.list[i].transform.position.x <= -9)
-                {
-                    transform.position += Vector3.right * 2;
-                }
             }
             transform.position = Vector3.MoveTowards(transform.position, transform.position + verticalOrientation, horizontalMoveSpeed);
             elapsedTime = 0;
