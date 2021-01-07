@@ -74,7 +74,7 @@ public class Invader : MonoBehaviour
             InvaderManager._instance.horizontalMoveSpeed = 0.3f;
             AudioManager.instance.IncreasePitch(1.5f);
         }
-        else if (list.Count <= 20)
+        else if (list.Count <= 15)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.2f;
             AudioManager.instance.IncreasePitch(1.25f);
