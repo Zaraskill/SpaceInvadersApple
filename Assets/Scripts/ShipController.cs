@@ -85,7 +85,8 @@ public class ShipController : MonoBehaviour
             _animator.SetBool("die", true);
             if(life <= 0)
             {
-                //Gameover
+                _animator.SetBool("die", true);
+                StartCoroutine(GameOver());
             }
             else
             {
@@ -93,6 +94,13 @@ public class ShipController : MonoBehaviour
                 AudioManager.instance.PlayEnemyTrash();
                 AudioManager.instance.PlayPlayerDeath();
             }
+        }
+
+        if (collision.gameObject.CompareTag("Enemy"))
+        {
+            life = 0;
+            _animator.SetBool("die", true);
+            StartCoroutine(GameOver());
         }
     }
 
@@ -117,5 +125,14 @@ public class ShipController : MonoBehaviour
         float wait = 4/6;
         yield return new WaitForSecondsRealtime(wait);
         _animator.SetBool("isFiring", false);
+    }
+
+    IEnumerator GameOver()
+    {
+        float wait = 1f;
+        yield return new WaitForSecondsRealtime(wait);
+        Destroy(gameObject);
+        UIManager.instance.gameObject.SetActive(false);
+        LoseScreen.instance.gameObject.SetActive(true);
     }
 }
