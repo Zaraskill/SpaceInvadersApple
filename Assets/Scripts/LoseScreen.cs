@@ -25,7 +25,7 @@ public class LoseScreen : MonoBehaviour
     [SerializeField] private Button ExitButton;
     void Start()
     {
-
+        gameObject.SetActive(false);
     }
 
     public void Restart()
