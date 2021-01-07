@@ -24,7 +24,7 @@ public class Invader : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (transform.position.x > 9 || transform.position.x < -9) hitSide = true;
+        if (transform.position.x > 8.5 || transform.position.x < -8.5) hitSide = true;
 
         else hitSide = false;
     }
