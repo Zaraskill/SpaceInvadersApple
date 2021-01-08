@@ -245,8 +245,9 @@ MonoBehaviour:
       m_Calls: []
   m_text: 'Score : XXX'
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
-  m_sharedMaterial: {fileID: 2180264, guid: 8f586378b4e144a9851e7b34d9b748ee, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: 4253edeed91ca234eb241d9ad2274871, type: 2}
+  m_sharedMaterial: {fileID: 1514760802728044369, guid: 4253edeed91ca234eb241d9ad2274871,
+    type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
@@ -270,7 +271,7 @@ MonoBehaviour:
   m_faceColor:
     serializedVersion: 2
     rgba: 4294967295
-  m_fontSize: 67.6
+  m_fontSize: 77.25
   m_fontSizeBase: 36
   m_fontWeight: 400
   m_enableAutoSizing: 1
@@ -1308,7 +1309,7 @@ Canvas:
   m_SortingBucketNormalizedSize: 0
   m_AdditionalShaderChannelsFlag: 25
   m_SortingLayerID: 0
-  m_SortingOrder: 5
+  m_SortingOrder: 0
   m_TargetDisplay: 0
 --- !u!224 &1733245166
 RectTransform:
@@ -1383,7 +1384,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &2096634283
 PrefabInstance:
@@ -1508,6 +1509,18 @@ PrefabInstance:
       propertyPath: m_SpriteTilingProperty.oldSize.y
       value: 2.38
       objectReference: {fileID: 0}
+    - target: {fileID: 9072437900604207396, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c,
+        type: 3}
+      propertyPath: m_fontAsset
+      value: 
+      objectReference: {fileID: 11400000, guid: 4253edeed91ca234eb241d9ad2274871,
+        type: 2}
+    - target: {fileID: 9072437900604207396, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c,
+        type: 3}
+      propertyPath: m_sharedMaterial
+      value: 
+      objectReference: {fileID: 1514760802728044369, guid: 4253edeed91ca234eb241d9ad2274871,
+        type: 2}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c, type: 3}
 --- !u!1 &2096634284 stripped

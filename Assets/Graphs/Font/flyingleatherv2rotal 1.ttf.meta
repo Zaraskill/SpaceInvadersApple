@@ -1,5 +1,5 @@
 fileFormatVersion: 2
-guid: d2d0f114198b0d640956263dbf9d5c49
+guid: bae369e8b4fc3704f8ef5325de622c74
 TrueTypeFontImporter:
   externalObjects: {}
   serializedVersion: 4
@@ -8,10 +8,11 @@ TrueTypeFontImporter:
   characterSpacing: 0
   characterPadding: 1
   includeFontData: 1
-  fontName: Flying Leatherneck Condensed
+  fontName: Flying Leatherneck Rotalic
   fontNames:
-  - Flying Leatherneck Condensed
-  fallbackFontReferences: []
+  - Flying Leatherneck Rotalic
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 319fcfdc53805904a90be44c045e3989, type: 3}
   customCharacters: 
   fontRenderingMode: 0
   ascentCalculationMode: 1
