@@ -31,6 +31,11 @@ public class ProjectileController : MonoBehaviour
         {
             AudioManager.instance.PlayEnemyTrash();
             Combo.instance.UpdateCombo(-1);
+            Invader[] invaders = FindObjectsOfType<Invader>();
+            foreach (Invader invader in invaders)
+            {
+                invader.DodgeShoot();
+            }
             Destroy(gameObject);
         }
 
