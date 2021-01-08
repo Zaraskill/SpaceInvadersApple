@@ -36,7 +36,12 @@ public class Combo : MonoBehaviour
 
     public void UpdateCombo(int action)
     {
-        if(action > 0)
+        if (FeaturesManager.instance.feature8 % 2 == 0)
+        {
+            return;
+        }
+
+        if (action > 0)
         {
             if (combo <= 0)
             {

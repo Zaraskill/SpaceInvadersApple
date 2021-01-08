@@ -45,7 +45,11 @@ public class InvaderManager : MonoBehaviour
     {
         float randomNum = Random.value;
 
-        if(randomNum <= dodgeProbability)
+        if (FeaturesManager.instance.feature4 % 2 == 0)
+        {
+            return;
+        }
+        if (randomNum <= dodgeProbability)
         {
             if (verticalOrientation == Vector3.left) verticalOrientation = Vector3.right;
             else if (verticalOrientation == Vector3.right) verticalOrientation = Vector3.left;

@@ -7,11 +7,7 @@ public class ProjectileController : MonoBehaviour
 {
     public float speed = 50;
 
-    [Header("Camera Shaker")]
-    public float magnitude;
-    public float roughness;
-    public float fadeInTime;
-    public float fadeOutTime;
+    
 
     // Start is called before the first frame update
     void Start()
@@ -50,8 +46,7 @@ public class ProjectileController : MonoBehaviour
             if (collision.gameObject.GetComponent<Invader>())
             {
                 Combo.instance.UpdateCombo(1);
-                AudioManager.instance.PlayEnemyDeath();
-                CameraShaker.Instance.ShakeOnce(magnitude, roughness, fadeInTime, fadeOutTime);
+                
                 collision.gameObject.GetComponent<Invader>().Explode();
             }
         }

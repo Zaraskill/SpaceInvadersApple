@@ -94,6 +94,10 @@ public class AudioManager : MonoBehaviour
 
     public void PlayEnemyTrash()
     {
+        if (FeaturesManager.instance.feature3 % 2 == 0)
+        {
+            return;
+        }
         int random = Random.Range(0, enemyTrashtalk.Count);
         Play(enemyTrashtalk[random]);
     }
@@ -125,6 +129,10 @@ public class AudioManager : MonoBehaviour
 
     public void IncreasePitch(float pitchToGo)
     {
+        if (FeaturesManager.instance.feature7 % 2 == 0)
+        {
+            return;
+        }
         pitchMin = pitchMax;
         pitchMax = pitchToGo;
         timeLerp = 0f;

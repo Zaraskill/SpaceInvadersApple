@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using EZCameraShake;
 
 public class Invader : MonoBehaviour
 {
@@ -68,7 +69,8 @@ public class Invader : MonoBehaviour
         {
             StopAllCoroutines();
         }
-        _animator.SetBool("Death", true);
+        if (FeaturesManager.instance.feature2 % 2 != 0)
+            _animator.SetBool("Death", true);
         StartCoroutine(Death());
         
     }
@@ -99,14 +101,21 @@ public class Invader : MonoBehaviour
     IEnumerator Death()
     {
         yield return new WaitForSeconds(0.3f);
-        Instantiate(particleExplosion, transform.position, Quaternion.identity);
-        Instantiate(tentacleExplosion, transform.position, Quaternion.identity);
+        if (FeaturesManager.instance.feature2 % 2 != 0)
+        {
+            AudioManager.instance.PlayEnemyDeath();
+            CameraShaker.Instance.ShakeOnce(3f, 3f, 0.1f, 1f);
+            Instantiate(particleExplosion, transform.position, Quaternion.identity);
+            Instantiate(tentacleExplosion, transform.position, Quaternion.identity);
+        }        
         UIManager.instance.BloodStain(transform.position, blood);
         float ratio = (invadersCount - (float)list.Count) / invadersCount;
-        InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);
-        Instantiate(ScoreUi, transform.position, Quaternion.identity);
+        InvaderManager._instance.moveInterval = Mathf.Lerp(InvaderManager._instance.maxMoveInterval, InvaderManager._instance.minMoveInterval, ratio);  
+        if (FeaturesManager.instance.feature6 % 2 != 0)
+        {
+            Instantiate(ScoreUi, transform.position, Quaternion.identity);            
+        }
         UIManager.instance.ScoreValue += scorePoints;
-
         if (list.Count == 1)
         {
             InvaderManager._instance.horizontalMoveSpeed = 0.8f;

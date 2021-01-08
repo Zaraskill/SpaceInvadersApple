@@ -91,6 +91,10 @@ public class UIManager : MonoBehaviour
 
     public void BloodStain(Vector3 position, GameObject blood)
     {
+        if(FeaturesManager.instance.feature1%2 == 0)
+        {
+            return;
+        }
         GameObject image = Instantiate(blood, this.GetComponent<RectTransform>());
         RectTransform transformRect = image.GetComponent<RectTransform>();
         transformRect.position = position;
