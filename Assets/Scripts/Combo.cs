@@ -58,7 +58,7 @@ public class Combo : MonoBehaviour
                 combo += action;
             }
         }
-        if (combo%2 == 0)
+        if (combo%4 == 0)
         {
             GameObject emoji;
             if (action > 0)

@@ -57,6 +57,7 @@ public class Invader : MonoBehaviour
 
         _animator.SetBool("isFiring", true);
         StartCoroutine(Fire());
+        AudioManager.instance.PlayEnemyShot();
         Instantiate(projectile, transform.position + Vector3.down, Quaternion.identity);
     }
 
@@ -79,7 +80,7 @@ public class Invader : MonoBehaviour
 
     public void DodgeShoot()
     {
-        _animator.SetBool("Dodge", false);
+        _animator.SetBool("Dodge", true);
         StartCoroutine(Dodge());
     }
 
@@ -91,7 +92,7 @@ public class Invader : MonoBehaviour
 
     IEnumerator Dodge()
     {
-        yield return new WaitForSeconds(72/120);
+        yield return new WaitForSeconds(80/60);
         _animator.SetBool("Dodge", false);
     }
 
