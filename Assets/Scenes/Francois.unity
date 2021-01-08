@@ -262,6 +262,8 @@ MonoBehaviour:
   - {fileID: 8300000, guid: ff75370ebfa0a3740a1a41cdde74d2c5, type: 3}
   - {fileID: 8300000, guid: 3e562b841af74c5438aff209dff25ef7, type: 3}
   - {fileID: 8300000, guid: 7d03305a5a53ac4419cbc8c63656cf42, type: 3}
+  positivesFeedback: []
+  negativesFeedback: []
 --- !u!4 &73012484
 Transform:
   m_ObjectHideFlags: 0
@@ -362,7 +364,7 @@ GameObject:
   - component: {fileID: 203793303}
   - component: {fileID: 203793305}
   m_Layer: 0
-  m_Name: GameObject (1)
+  m_Name: SideBox1
   m_TagString: Sides
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -574,7 +576,7 @@ GameObject:
   - component: {fileID: 1028655219}
   - component: {fileID: 1028655221}
   m_Layer: 0
-  m_Name: GameObject
+  m_Name: SideBox
   m_TagString: Sides
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -875,6 +877,7 @@ MonoBehaviour:
   lifeThree: {fileID: 194751306}
   trashText: {fileID: 0}
   trashtalkSentences: []
+  positivesSentences: []
   ScoreText: {fileID: 473881635}
   ScoreValue: 0
   ScaleCurve:
@@ -1197,7 +1200,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 8b9a305e18de0c04dbd257a21cd47087, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  sharedProfile: {fileID: 11400000, guid: 7cd9b7e5686615e4f82e98215263cb2b, type: 2}
+  sharedProfile: {fileID: 0}
   isGlobal: 1
   blendDistance: 0
   weight: 1
@@ -1236,7 +1239,7 @@ PrefabInstance:
     - target: {fileID: 668086417520865736, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c,
         type: 3}
       propertyPath: m_LocalPosition.y
-      value: -5
+      value: -4.03
       objectReference: {fileID: 0}
     - target: {fileID: 668086417520865736, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c,
         type: 3}
@@ -1277,6 +1280,16 @@ PrefabInstance:
         type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 668086417520865738, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c,
+        type: 3}
+      propertyPath: m_BodyType
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 668086417520865738, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c,
+        type: 3}
+      propertyPath: m_Constraints
+      value: 6
       objectReference: {fileID: 0}
     - target: {fileID: 668086417520865742, guid: 8584f82d5c44ebd4ab79496ac1fb1f5c,
         type: 3}
