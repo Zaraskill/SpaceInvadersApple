@@ -1,6 +1,7 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.SceneManagement;
 using UnityEngine.UI;
 
 public class LoseScreen : MonoBehaviour
@@ -30,7 +31,7 @@ public class LoseScreen : MonoBehaviour
 
     public void Restart()
     {
-
+        SceneManager.LoadScene("MainScene");
     }
 
     public void Exit()
