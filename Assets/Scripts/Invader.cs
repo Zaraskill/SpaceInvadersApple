@@ -57,6 +57,7 @@ public class Invader : MonoBehaviour
 
         _animator.SetBool("isFiring", true);
         StartCoroutine(Fire());
+        AudioManager.instance.PlayEnemyShot();
         Instantiate(projectile, transform.position + Vector3.down, Quaternion.identity);
     }
 
