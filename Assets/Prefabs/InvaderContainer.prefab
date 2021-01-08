@@ -67,7 +67,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: ad6fc5d38c2a6bf42a84fe088c0447ab, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  shootFrequency: 2
+  shootFrequency: 0.5
   horizontalMoveSpeed: 0.1
   verticalMoveSpeed: 0.2
   moveInterval: 2.5
